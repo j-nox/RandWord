@@ -1,0 +1,15 @@
+
+…
+java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "currentUser".(®ð½Ãÿÿÿÿÿ8×ù…²í1
+‹
+java:S1488#"iImmediately return this expression instead of assigning it to the temporary variable "currentDictionary".(ã¹À×ùÿÿÿÿ8×ù…²í1
+8
+java:S1700"Rename field "session"(Ç…™Ûûÿÿÿÿ8å†Ñ²í1
+D
+java:S1125"'Remove the unnecessary boolean literal.(é¨«ˆ8áµ¹²í1
+]	java:S125"<This block of commented-out lines of code should be removed.(‚ÓëŒÿÿÿÿÿ8­ÁÔ²í1
+]	java:S125"<This block of commented-out lines of code should be removed.(‚ÓëŒÿÿÿÿÿ8²ÚÔ²í1
+]	java:S125""<This block of commented-out lines of code should be removed.(‚ÓëŒÿÿÿÿÿ8¯¿Õ²í1
+]	java:S125'"<This block of commented-out lines of code should be removed.(‚ÓëŒÿÿÿÿÿ8ñÆÖ²í1
+z
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ç…™Ûûÿÿÿÿ8û†Ñ²í1

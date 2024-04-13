@@ -1,9 +1,14 @@
 
-i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÉÚ½Ì8²Ÿ¶Êì1
-F	java:S106"+Replace this use of System.out by a logger.(‹øÊ\8ÆŸ¶Êì1
-Q
-java:S2209"5Change this instance-reference to a static reference.(‹øÊ\8êôìÊì1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÉÚ½Ì8²¥ä´í1
+r
+java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(ã‚÷Øûÿÿÿÿ8Æ’€¶í1
+W
+java:S2209"5Change this instance-reference to a static reference.(’ã˜êÿÿÿÿÿ8¢ «¶í1
+}
+java:S1989"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(Üèû	8·Éü¶í1
 @
-java:S1128"$Remove this unused import 'java.io'.(¬›ãD8ëôìÊì1
-M
-java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓŞÏÛ8ëôìÊì1
+java:S1128"$Remove this unused import 'java.io'.(¬›ãD8¹”ê¶í1
+Y
+java:S1128	"<Remove this unused import 'javax.servlet.RequestDispatcher'.(Ëöò¼8º”ê¶í1
+X
+java:S1128";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8º”ê¶í1
