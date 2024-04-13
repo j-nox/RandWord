@@ -17,8 +17,6 @@ P
  src/main/java/words/Session.java,d/9/d970bf3c515c57baafb6928ea472ee67020e7559
 U
 %src/main/java/words/LearnedWords.java,e/1/e1b80d4c2547e890f8964a59237f8a5e578bad68
-Q
-!src/main/webapp/WEB-INF/hello.jsp,5/2/520ac7fd561f5823df09300652018edf42b0426d
 S
 #src/main/webapp/WEB-INF/getWord.jsp,c/d/cd44ce17c1cce131c2e5eb55385d8894f1b2aa9d
 I
