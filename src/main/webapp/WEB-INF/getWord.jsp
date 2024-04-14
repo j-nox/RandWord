@@ -24,9 +24,16 @@ response.setCharacterEncoding("UTF-8");
         %>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
         <script>
+
             const yourServletURL = "/RandWord/checkWord";
-            $(document).on("click", "#checkWord", function() {
-                $.get(yourServletURL, function(responseText) {
+            $(document).on("click", ".translate", function() {
+                var text = $(event.target).text();
+                var currentWord = $("#currentWord").text();
+                const params = {
+                    currentWord: currentWord,
+                    translate: text
+                };
+                $.get(yourServletURL, $.param(params), function(responseText) {
                     $("#checkWord").text(responseText);
                 });
             });
@@ -66,11 +73,13 @@ response.setCharacterEncoding("UTF-8");
           <main class="container">
             <h1 class="text-center">Выучи 5000 английских слов</h1>
             <div class="bg-body-tertiary p-5 rounded">
-              <h1><% out.println(word); %></h1>
+              <%
+              out.println("<h1 id='currentWord'>" + word + "</h1>");
+              %>
               <p class="lead">Выбери правильный перевод</p>
               <%
               for (String translate : translations) {
-                out.println("<a class='btn btn-lg btn-primary' href='/' role='button'>" + translate + "</a>");
+                out.println("<a class='btn btn-lg btn-primary translate' href='#' role='button'>" + translate + "</a>");
               }
               %>
             </div>

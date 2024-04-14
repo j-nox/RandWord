@@ -23,9 +23,15 @@ public class checkWord extends HttpServlet {
         response.setContentType("text/html; charset=UTF-8");
         response.setCharacterEncoding("UTF-8");
         request.setCharacterEncoding("UTF-8");
+        String currentWord = request.getParameter("currentWord");
+        String translate = request.getParameter("translate");
 
-        response.getWriter().write("Word");
-
-
+        Dictionary dictionary = new Dictionary();
+        boolean checkWord = dictionary.checkWord(currentWord, translate);
+        if (checkWord) {
+            response.getWriter().write("Верно");
+        } else {
+            response.getWriter().write("Неверно");
+        }
     }
 }

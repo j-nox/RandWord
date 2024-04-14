@@ -56,4 +56,14 @@ public class Dictionary {
         return translations;
     }
 
+    public boolean checkWord(String currentWord, String translate) {
+        int wordIndex = words.indexOf(currentWord);
+        int translateIndex = translations.indexOf(translate);
+        if (wordIndex == translateIndex) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 }
