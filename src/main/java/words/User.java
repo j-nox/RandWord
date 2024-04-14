@@ -2,12 +2,23 @@ package words;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class User {
-    public int id = 1;
-    public int score = 0;
+    Random random = new Random();
+    int randomId = random.nextInt(1000);
+    private int id = randomId;
+    private int score = 0;
 
     public void addScore() {
         this.score = this.score + 1;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public int getId() {
+        return id;
     }
 }

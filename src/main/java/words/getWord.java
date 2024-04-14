@@ -26,6 +26,10 @@ public class getWord extends HttpServlet {
         Session session = new words.Session(request);
         PrintWriter printOut = response.getWriter();
         HashMap<String, ArrayList<String>> randWord = session.getCurrentDictionary().getWord();
+        User user = session.getCurrentUser();
+
+        request.setAttribute("userId", user.getId());
+        request.setAttribute("userScore", user.getScore());
 
         for (String key : randWord.keySet()) {
             request.setAttribute("word", key);

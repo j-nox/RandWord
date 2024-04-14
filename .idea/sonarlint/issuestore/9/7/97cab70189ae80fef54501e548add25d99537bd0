@@ -1,26 +1,26 @@
 
-i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÉÚ½Ì8áèÄÁí1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÉÚ½Ì8˜”³İí1
 ^
-java:S1854"<Remove this useless assignment to local variable "printOut".(ã‚÷Øûÿÿÿÿ8ÔÄ®Äí1
+java:S1854"<Remove this useless assignment to local variable "printOut".(ã‚÷Øûÿÿÿÿ8©”³İí1
 W
-java:S1161":Add the "@Override" annotation above this method signature(ÅµÄè8éò‰Äí1
+java:S1161":Add the "@Override" annotation above this method signature(ÅµÄè8©”³İí1
 
-java:S1989"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(áò‰øÿÿÿÿ8éâµÄí1
+java:S1989"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(áò‰øÿÿÿÿ8«”³İí1
 r
-java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(ã‚÷Øûÿÿÿÿ8ƒéÄÁí1
+java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(ã‚÷Øûÿÿÿÿ8­”³İí1
 O
-java:S1481"-Remove this unused "printOut" local variable.(ã‚÷Øûÿÿÿÿ8İÄ®Äí1
+java:S1481"-Remove this unused "printOut" local variable.(ã‚÷Øûÿÿÿÿ8­”³İí1
 W
-java:S2209"5Change this instance-reference to a static reference.(’ã˜êÿÿÿÿÿ8ööˆÄí1
+java:S2209"5Change this instance-reference to a static reference.(’ã˜êÿÿÿÿÿ8°”³İí1
 }
-java:S1989&"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(Üèû	8çÄ®Äí1
+java:S1989*"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(Üèû	8´”³İí1
 M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8÷ˆÄí1
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Á…Àİí1
 Y
-java:S1128	"<Remove this unused import 'javax.servlet.RequestDispatcher'.(Ëöò¼8÷ˆÄí1
+java:S1128	"<Remove this unused import 'javax.servlet.RequestDispatcher'.(Ëöò¼8Á…Àİí1
 X
-java:S1128";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8‚÷ˆÄí1
+java:S1128";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8Â…Àİí1
 M
-java:S1128"0Remove this unused import 'java.net.URLDecoder'.(œ®ô„8‚÷ˆÄí1
+java:S1128"0Remove this unused import 'java.net.URLDecoder'.(œ®ô„8Â…Àİí1
 M
-java:S1128"0Remove this unused import 'java.net.URLEncoder'.(ê¢ºÆ8ƒ÷ˆÄí1
+java:S1128"0Remove this unused import 'java.net.URLEncoder'.(ê¢ºÆ8Ã…Àİí1
