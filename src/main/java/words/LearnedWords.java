@@ -9,7 +9,11 @@ public class LearnedWords {
     public void addLearnedWord(String word) {
         learnedWords.add(word);
     }
-    public List<String> getLearnedWord() {
+    public List<String> getLearnedWords() {
         return learnedWords;
+    }
+
+    public boolean checkLearnedWord(String word) {
+        return learnedWords.contains(word);
     }
 }

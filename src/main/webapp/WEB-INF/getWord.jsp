@@ -21,6 +21,7 @@ response.setCharacterEncoding("UTF-8");
             int userId = (int) request.getAttribute("userId");
             int userScore = (int) request.getAttribute("userScore");
             ArrayList<String> translations = (ArrayList<String>) request.getAttribute("translations");
+            ArrayList<String> learnedWords = (ArrayList<String>) request.getAttribute("learnedWords");
         %>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
         <script>
@@ -85,6 +86,14 @@ response.setCharacterEncoding("UTF-8");
               }
               %>
             </div>
+            <h2>Изученные слова</h2>
+            <ul class="list-group">
+              <%
+                for (String learnedWord : learnedWords) {
+                  out.println("<li class='list-group-item'>" + learnedWord + "</li>");
+                }
+              %>
+            </ul>
           </main>
     </body>
 </html>

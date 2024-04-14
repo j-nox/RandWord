@@ -26,13 +26,23 @@ public class getWord extends HttpServlet {
         Session session = new words.Session(request);
         PrintWriter printOut = response.getWriter();
         HashMap<String, ArrayList<String>> randWord = session.getCurrentDictionary().getWord();
+
         User user = session.getCurrentUser();
 
         request.setAttribute("userId", user.getId());
         request.setAttribute("userScore", user.getScore());
+        request.setAttribute("learnedWords", session.getLearnedWords());
 
-        for (String key : randWord.keySet()) {
-            request.setAttribute("word", key);
+        boolean learned = true;
+        while (learned) {
+            for (String key : randWord.keySet()) {
+                if (session.checkLearnedWords(key)) {
+                    randWord = session.getCurrentDictionary().getWord();
+                } else {
+                    request.setAttribute("word", key);
+                    learned = false;
+                }
+            }
         }
 
         for (ArrayList<String> valuesList : randWord.values()) {

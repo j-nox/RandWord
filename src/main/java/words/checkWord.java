@@ -25,13 +25,14 @@ public class checkWord extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         String currentWord = request.getParameter("currentWord");
         String translate = request.getParameter("translate");
+        Session session = new words.Session(request);
 
         Dictionary dictionary = new Dictionary();
         boolean checkWord = dictionary.checkWord(currentWord, translate);
         if (checkWord) {
             response.getWriter().write("1");
-        } else {
-            response.getWriter().write("0");
+            session.addUserScore();
+            session.addLearnedWords(currentWord);
         }
     }
 }

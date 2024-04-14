@@ -6,6 +6,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Session extends HttpServlet {
     HttpSession session;
@@ -18,6 +20,8 @@ public class Session extends HttpServlet {
             session.setAttribute("user", user);
             Dictionary dictionary = new words.Dictionary();
             session.setAttribute("dictionary", dictionary);
+            LearnedWords learnedWords = new LearnedWords();
+            session.setAttribute("learnedWords", learnedWords);
         }
     }
 
@@ -26,21 +30,35 @@ public class Session extends HttpServlet {
         return session;
     }
     public User getCurrentUser() {
-//        HttpSession session = request.getSession();
         User currentUser = (User) session.getAttribute("user");
         return currentUser;
     }
     public Dictionary getCurrentDictionary() {
-//        HttpSession session = request.getSession();
         Dictionary currentDictionary = (Dictionary) session.getAttribute("dictionary");
         return currentDictionary;
     }
-    public void updateCurrentUser() {
-//        HttpSession session = request.getSession();
+    public void addUserScore() {
         User currentUser = (User) session.getAttribute("user");
         currentUser.addScore();
         session.removeAttribute("user");
         session.setAttribute("user", currentUser);
+    }
+
+    public void addLearnedWords(String word) {
+        LearnedWords learnedWords = (LearnedWords) session.getAttribute("learnedWords");
+        learnedWords.addLearnedWord(word);
+        session.removeAttribute("learnedWords");
+        session.setAttribute("learnedWords", learnedWords);
+    }
+
+    public boolean checkLearnedWords(String word) {
+        LearnedWords learnedWords = (LearnedWords) session.getAttribute("learnedWords");
+        return learnedWords.checkLearnedWord(word);
+    }
+
+    public List<String> getLearnedWords() {
+        LearnedWords learnedWords = (LearnedWords) session.getAttribute("learnedWords");
+        return learnedWords.getLearnedWords();
     }
 
 }
