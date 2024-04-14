@@ -18,4 +18,16 @@
     <url-pattern>/getWord</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>checkWord</servlet-name>
+    <servlet-class>
+      words.checkWord
+    </servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>checkWord</servlet-name>
+    <url-pattern>/checkWord</url-pattern>
+  </servlet-mapping>
+
 </web-app>

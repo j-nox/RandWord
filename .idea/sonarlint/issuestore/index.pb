@@ -21,3 +21,5 @@ S
 #src/main/webapp/WEB-INF/getWord.jsp,c/d/cd44ce17c1cce131c2e5eb55385d8894f1b2aa9d
 I
 src/main/webapp/index.jsp,8/e/8e6d3b70c9f5b02570779b0441540d45eceb0ded
+R
+"src/main/java/words/checkWord.java,2/1/21f46732737067319a37cbb5c07ee9f20b2dc324

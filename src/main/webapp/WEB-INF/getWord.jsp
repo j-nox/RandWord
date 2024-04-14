@@ -22,6 +22,15 @@ response.setCharacterEncoding("UTF-8");
             int userScore = (int) request.getAttribute("userScore");
             ArrayList<String> translations = (ArrayList<String>) request.getAttribute("translations");
         %>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script>
+            const yourServletURL = "/RandWord/checkWord";
+            $(document).on("click", "#checkWord", function() {
+                $.get(yourServletURL, function(responseText) {
+                    $("#checkWord").text(responseText);
+                });
+            });
+        </script>
     </head>
     <body>
           <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -47,7 +56,7 @@ response.setCharacterEncoding("UTF-8");
                   <button class="btn btn-primary">
                     User #<% out.println(userId); %>
                   </button>
-                  <button style="margin-left: 15px;" class="btn btn-primary">
+                  <button id="checkWord" style="margin-left: 15px;" class="btn btn-primary">
                     Выучил слов: <% out.println(userScore); %>
                   </button>
                 </div>
