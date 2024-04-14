@@ -29,9 +29,9 @@ public class checkWord extends HttpServlet {
         Dictionary dictionary = new Dictionary();
         boolean checkWord = dictionary.checkWord(currentWord, translate);
         if (checkWord) {
-            response.getWriter().write("Верно");
+            response.getWriter().write("1");
         } else {
-            response.getWriter().write("Неверно");
+            response.getWriter().write("0");
         }
     }
 }

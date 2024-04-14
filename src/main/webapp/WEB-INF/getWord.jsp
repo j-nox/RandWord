@@ -34,7 +34,9 @@ response.setCharacterEncoding("UTF-8");
                     translate: text
                 };
                 $.get(yourServletURL, $.param(params), function(responseText) {
-                    $("#checkWord").text(responseText);
+                    if (responseText == "1") {
+                        $("#score").text(parseInt($("#score").text()) + 1);
+                    }
                 });
             });
         </script>
@@ -63,8 +65,8 @@ response.setCharacterEncoding("UTF-8");
                   <button class="btn btn-primary">
                     User #<% out.println(userId); %>
                   </button>
-                  <button id="checkWord" style="margin-left: 15px;" class="btn btn-primary">
-                    Выучил слов: <% out.println(userScore); %>
+                  <button id="score" style="margin-left: 15px;" class="btn btn-primary">
+                    <% out.println(userScore); %>
                   </button>
                 </div>
               </div>

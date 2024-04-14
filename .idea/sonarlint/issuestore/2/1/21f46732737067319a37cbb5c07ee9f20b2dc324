@@ -5,6 +5,22 @@ java:S1161":Add the "@Override" annotation above this method signature(ÅµÄè8¹
 
 java:S1989"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(áò‰øÿÿÿÿ8ºÄ¯áí1
 m
-java:S1989 "PHandle the following exception that could be thrown by "getWriter": IOException.(¬³êˆ8Ú¢®äí1
-m
-java:S1989""PHandle the following exception that could be thrown by "getWriter": IOException.(£ñ—8Û¢®äí1
+java:S1989 "PHandle the following exception that could be thrown by "getWriter": IOException.(€“µ«8Ú¢®äí1
+r
+java:S1989""PHandle the following exception that could be thrown by "getWriter": IOException.(›ºùÍúÿÿÿÿ8Û¢®äí1
+M
+java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓŞÏÛ8ÿè·åí1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ÿè·åí1
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ÿè·åí1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÿè·åí1
+Y
+java:S1128	"<Remove this unused import 'javax.servlet.RequestDispatcher'.(Ëöò¼8€é·åí1
+X
+java:S1128";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8€é·åí1
+M
+java:S1128"0Remove this unused import 'java.net.URLDecoder'.(œ®ô„8€é·åí1
+M
+java:S1128"0Remove this unused import 'java.net.URLEncoder'.(ê¢ºÆ8€é·åí1
