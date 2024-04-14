@@ -29,6 +29,8 @@ response.setCharacterEncoding("UTF-8");
             const yourServletURL = "/RandWord/checkWord";
             $(document).on("click", ".translate", function() {
                 var text = $(event.target).text();
+                const btn = $(event.target);
+
                 var currentWord = $("#currentWord").text();
                 const params = {
                     currentWord: currentWord,
@@ -38,6 +40,9 @@ response.setCharacterEncoding("UTF-8");
                     if (responseText == "1") {
                         $("#score").text(parseInt($("#score").text()) + 1);
                         location.reload();
+                    } else {
+                        btn.removeClass('btn-primary');
+                        btn.addClass('btn-danger');
                     }
                 });
             });
