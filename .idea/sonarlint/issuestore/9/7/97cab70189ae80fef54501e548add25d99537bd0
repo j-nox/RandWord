@@ -10,19 +10,5 @@ r
 java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(ã‚÷Øûÿÿÿÿ8İõéí1
 O
 java:S1481"-Remove this unused "printOut" local variable.(ã‚÷Øûÿÿÿÿ8İõéí1
-W
-java:S2209"5Change this instance-reference to a static reference.(’ã˜êÿÿÿÿÿ8Şõéí1
-Q
-java:S2209("5Change this instance-reference to a static reference.(ìÂïA8áõéí1
 }
 java:S19894"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(Üèû	8âõéí1
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Á¾½éí1
-Y
-java:S1128	"<Remove this unused import 'javax.servlet.RequestDispatcher'.(Ëöò¼8Á¾½éí1
-X
-java:S1128";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8Á¾½éí1
-M
-java:S1128"0Remove this unused import 'java.net.URLDecoder'.(œ®ô„8Á¾½éí1
-M
-java:S1128"0Remove this unused import 'java.net.URLEncoder'.(ê¢ºÆ8Â¾½éí1

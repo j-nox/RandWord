@@ -7,26 +7,8 @@ java:S1488!"cImmediately return this expression instead of assigning it to the 
 java:S1488%"iImmediately return this expression instead of assigning it to the temporary variable "currentDictionary".(ã¹À×ùÿÿÿÿ8‘Å¹éí1
 8
 java:S1700"Rename field "session"(Ç…™Ûûÿÿÿÿ8’Å¹éí1
-˜
-java:S1130"|Remove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from constructor's body.(ıù±8 Å¹éí1
-
-java:S1130"qRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from constructor's body.(ıù±8¡Å¹éí1
 D
 java:S1125"'Remove the unnecessary boolean literal.(é¨«ˆ8¢Å¹éí1
-\
-java:S2441":Make "User" serializable or don't store it in the session.(£™Õàûÿÿÿÿ8£Å¹éí1
-]
-java:S2441"@Make "Dictionary" serializable or don't store it in the session.(õÚÜš8¤Å¹éí1
-d
-java:S2441"BMake "LearnedWords" serializable or don't store it in the session.(šäâ¬şÿÿÿÿ8¤Å¹éí1
 ]	java:S125"<This block of commented-out lines of code should be removed.(‚ÓëŒÿÿÿÿÿ8¦Å¹éí1
-W
-java:S2441,":Make "User" serializable or don't store it in the session.(“¶Ç¸8«Å¹éí1
-d
-java:S24413"BMake "LearnedWords" serializable or don't store it in the session.(šäâ¬şÿÿÿÿ8®Å¹éí1
-`
-java:S1128"CRemove this unused import 'javax.servlet.http.HttpServletResponse'.(Á¨ïë8ô Îéí1
-M
-java:S1128	"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ô Îéí1
 z
 java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ç…™Ûûÿÿÿÿ8²Å¹éí1

@@ -23,3 +23,15 @@ I
 src/main/webapp/index.jsp,8/e/8e6d3b70c9f5b02570779b0441540d45eceb0ded
 R
 "src/main/java/words/checkWord.java,2/1/21f46732737067319a37cbb5c07ee9f20b2dc324
+T
+$src/main/java/Models/Dictionary.java,2/9/2903a5f3887d500b4d858979dc5359ed016fd79f
+V
+&src/main/java/Models/LearnedWords.java,8/e/8e1840ffeae84ee2c7aa048c03cc80bb41cae52d
+N
+src/main/java/Models/User.java,d/0/d0cd9764143c90e2b3a8fa31f63a774496de9c6f
+N
+src/main/java/Models/Word.java,8/9/891428b7e006e34c872cca40577e654aa98a3821
+J
+src/main/java/Session.java,0/c/0cfabff305b3d432bff926f4227d5676adcdc367
+U
+%src/main/java/Servlets/checkWord.java,c/7/c7159c13d7f7d0ed556ee186cce4ed8156453702

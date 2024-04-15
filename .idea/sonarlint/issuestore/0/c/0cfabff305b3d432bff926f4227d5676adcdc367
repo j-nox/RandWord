@@ -1,0 +1,31 @@
+
+o
+java:S1192"MDefine a constant instead of duplicating this literal "learnedWords" 3 times.(šäâ¬şÿÿÿÿ8¹ú‡šî1
+8
+java:S1700"Rename field "session"(Ç…™Ûûÿÿÿÿ8½ú‡šî1
+›
+java:S1598"yThis file "Session.java" should be located in "words" directory, not in "/Users/web/IdeaProjects/RandWord/src/main/java".(½‡ƒÙşÿÿÿÿ8¾ú‡šî1
+˜
+java:S1130"|Remove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from constructor's body.(ıù±8Òú‡šî1
+
+java:S1130"qRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from constructor's body.(ıù±8Òú‡šî1
+D
+java:S1125"'Remove the unnecessary boolean literal.(é¨«ˆ8Ôú‡šî1
+\
+java:S2441":Make "User" serializable or don't store it in the session.(£™Õàûÿÿÿÿ8Õú‡šî1
+]
+java:S2441"@Make "Dictionary" serializable or don't store it in the session.(õÚÜš8Öú‡šî1
+d
+java:S2441"BMake "LearnedWords" serializable or don't store it in the session.(šäâ¬şÿÿÿÿ8Öú‡šî1
+`
+java:S1128"CRemove this unused import 'javax.servlet.http.HttpServletResponse'.(Á¨ïë8µÄ“šî1
+M
+java:S1128	"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8µÄ“šî1
+z
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ç…™Ûûÿÿÿÿ8áú‡šî1
+z
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(‰ĞÑÏÿÿÿÿÿ8áú‡šî1
+t
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ø˜a8áú‡šî1
+u
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ï¯ìº8áú‡šî1
