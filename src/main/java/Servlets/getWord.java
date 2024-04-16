@@ -12,8 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import java.net.URLDecoder;
-import java.net.URLEncoder;
+import words.*;
 
 public class getWord extends HttpServlet {
 
@@ -25,7 +24,7 @@ public class getWord extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         Session session = new words.Session(request);
         PrintWriter printOut = response.getWriter();
-        HashMap<String, ArrayList<String>> randWord = session.getCurrentDictionary().getWord();
+        HashMap<String, ArrayList<String>> randWord = new Dictionary().getWord();
 
         User user = session.getCurrentUser();
 

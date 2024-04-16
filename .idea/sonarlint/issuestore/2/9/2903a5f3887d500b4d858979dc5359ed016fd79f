@@ -1,26 +1,33 @@
 
-o
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ı¶³Ã
-t
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ø—çÿÿÿÿÿ
-t
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(åØ´ûÿÿÿÿ
-ƒ
-java:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(ÓäˆÛ
-~
-java:S1488*"cImmediately return this expression instead of assigning it to the temporary variable "translation".(åô«Œüÿÿÿÿ
-Ÿ
-java:S1598"ƒThis file "Dictionary.java" should be located in "words" directory, not in "/Users/web/IdeaProjects/RandWord/src/main/java/Models".(½‡ƒÙşÿÿÿÿ
-\
-java:S1075
-"ARefactor your code to get this URI from a customizable parameter.(££©éøÿÿÿÿ
-<
-java:S3010"!Remove this assignment of "json".(„³‰¯ıÿÿÿÿ
-8
-java:S3010""Remove this assignment of "words".(›Ô¼´
-D
-java:S3010")Remove this assignment of "translations".(™Ñäğşÿÿÿÿ
-3
-java:S2119"Save and re-use this "Random".(¼İÅf
-\
-java:S11261"AReplace this if-then-else statement by a single return statement.(±•–Èüÿÿÿÿ
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ı¶³Ã8íÚàÂî1
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ø—çÿÿÿÿÿ8íÚàÂî1
+{
+java:S2293("YReplace the type specification in this constructor call with the diamond operator ("<>").(åØ´ûÿÿÿÿ8íÚàÂî1
+Š
+java:S1319'"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(ĞÁŒ8îÚàÂî1
+E
+java:S1604"(Make this anonymous inner class a lambda(¿ÂËó8îÚàÂî1
+¦
+java:S1598"ƒThis file "Dictionary.java" should be located in "words" directory, not in "/Users/web/IdeaProjects/RandWord/src/main/java/Models".(½‡ƒÙşÿÿÿÿ8ïÚàÂî1
+p
+java:S3008	"SRename this field "INSTANCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÂò×8†ÛàÂî1
+c
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(££©éøÿÿÿÿ8ŒÛàÂî1
+C
+java:S3010"!Remove this assignment of "json".(„³‰¯ıÿÿÿÿ8ÛàÂî1
+?
+java:S3010""Remove this assignment of "words".(›Ô¼´8ÛàÂî1
+K
+java:S3010")Remove this assignment of "translations".(™Ñäğşÿÿÿÿ8ÛàÂî1
+X
+java:S2696"6Make the enclosing method "static" or remove this set.(„³‰¯ıÿÿÿÿ8ÛàÂî1
+S
+java:S2696"6Make the enclosing method "static" or remove this set.(›Ô¼´8”ÛàÂî1
+X
+java:S2696"6Make the enclosing method "static" or remove this set.(™Ñäğşÿÿÿÿ8•ÛàÂî1
+:
+java:S2119)"Save and re-use this "Random".(¼İÅf8šÛàÂî1
+c
+java:S1126<"AReplace this if-then-else statement by a single return statement.(±•–Èüÿÿÿÿ8ÛàÂî1

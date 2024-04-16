@@ -35,3 +35,5 @@ J
 src/main/java/Session.java,0/c/0cfabff305b3d432bff926f4227d5676adcdc367
 U
 %src/main/java/Servlets/checkWord.java,c/7/c7159c13d7f7d0ed556ee186cce4ed8156453702
+S
+#src/main/java/Servlets/getWord.java,a/b/abffda0d71b6c92a7351b577c82e6553b2bb597a
