@@ -1,33 +1,36 @@
 
 v
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ı¶³Ã8…ßêî1
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ı¶³Ã8¾¡±ìî1
 {
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ø—çÿÿÿÿÿ8†ßêî1
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ø—çÿÿÿÿÿ8Á¡±ìî1
 {
-java:S2293,"YReplace the type specification in this constructor call with the diamond operator ("<>").(åØ´ûÿÿÿÿ8‡ßêî1
+java:S2293."YReplace the type specification in this constructor call with the diamond operator ("<>").(åØ´ûÿÿÿÿ8Ã¡±ìî1
 Š
-java:S1319+"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(ĞÁŒ8ˆßêî1
+java:S1319,"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(ĞÁŒ8Æ¡±ìî1
 E
-java:S1604"(Make this anonymous inner class a lambda(¿ÂËó8ˆßêî1
+java:S1604"(Make this anonymous inner class a lambda(¿ÂËó8Ç¡±ìî1
 ¦
-java:S1598"ƒThis file "Dictionary.java" should be located in "words" directory, not in "/Users/web/IdeaProjects/RandWord/src/main/java/Models".(½‡ƒÙşÿÿÿÿ8‹ßêî1
+java:S1598"ƒThis file "Dictionary.java" should be located in "words" directory, not in "/Users/web/IdeaProjects/RandWord/src/main/java/Models".(½‡ƒÙşÿÿÿÿ8Ì¡±ìî1
 p
-java:S3008"SRename this field "INSTANCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÂò×8Øßêî1
+java:S3008"SRename this field "INSTANCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÂò×8ñ¡±ìî1
+¶
+java:S6548
+"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(É’¶Ş8ù¡±ìî1
 c
-java:S1075"ARefactor your code to get this URI from a customizable parameter.(££©éøÿÿÿÿ8áßêî1
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(££©éøÿÿÿÿ8‰¢±ìî1
 C
-java:S3010"!Remove this assignment of "json".(„³‰¯ıÿÿÿÿ8åßêî1
+java:S3010"!Remove this assignment of "json".(„³‰¯ıÿÿÿÿ8¢±ìî1
 ?
-java:S3010""Remove this assignment of "words".(›Ô¼´8æßêî1
+java:S3010 ""Remove this assignment of "words".(›Ô¼´8¢±ìî1
 K
-java:S3010 ")Remove this assignment of "translations".(™Ñäğşÿÿÿÿ8æßêî1
+java:S3010!")Remove this assignment of "translations".(™Ñäğşÿÿÿÿ8¢±ìî1
 X
-java:S2696"6Make the enclosing method "static" or remove this set.(„³‰¯ıÿÿÿÿ8ëßêî1
+java:S2696"6Make the enclosing method "static" or remove this set.(„³‰¯ıÿÿÿÿ8•¢±ìî1
 S
-java:S2696"6Make the enclosing method "static" or remove this set.(›Ô¼´8ğßêî1
+java:S2696 "6Make the enclosing method "static" or remove this set.(›Ô¼´8œ¢±ìî1
 X
-java:S2696 "6Make the enclosing method "static" or remove this set.(™Ñäğşÿÿÿÿ8ñßêî1
+java:S2696!"6Make the enclosing method "static" or remove this set.(™Ñäğşÿÿÿÿ8¢±ìî1
 :
-java:S2119-"Save and re-use this "Random".(¼İÅf8ùßêî1
+java:S2119/"Save and re-use this "Random".(¼İÅf8©¢±ìî1
 c
-java:S1126@"AReplace this if-then-else statement by a single return statement.(±•–Èüÿÿÿÿ8àêî1
+java:S1126B"AReplace this if-then-else statement by a single return statement.(±•–Èüÿÿÿÿ8º¢±ìî1

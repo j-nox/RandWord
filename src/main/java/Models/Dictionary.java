@@ -21,7 +21,8 @@ public class Dictionary {
         }
         return INSTANCE;
     }
-    public Dictionary() {
+
+    private Dictionary() {
         words.add("World");
         translations.add("Мир");
         Runnable task = new Runnable() {
@@ -41,6 +42,7 @@ public class Dictionary {
     }
 
     public HashMap<String, ArrayList<String>> getWord() {
+
         ArrayList<String> randTranslations = new ArrayList<String>();
         Random random = new Random();
         String randWord;

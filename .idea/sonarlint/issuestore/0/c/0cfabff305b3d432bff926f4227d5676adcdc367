@@ -15,11 +15,17 @@ java:S1125"'Remove the unnecessary boolean literal.(é¨«ˆ8î÷Âî1
 java:S2441":Make "User" serializable or don't store it in the session.(£™Õàûÿÿÿÿ8ï÷Âî1
 d
 java:S2441"BMake "LearnedWords" serializable or don't store it in the session.(šäâ¬şÿÿÿÿ8ğ÷Âî1
+`
+java:S1128"CRemove this unused import 'javax.servlet.http.HttpServletResponse'.(Á¨ïë8·­¥ìî1
+M
+java:S1128	"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8·­¥ìî1
+q
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(Ä’Œ›8¸­¥ìî1
 z
 java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ïØ•Áıÿÿÿÿ8÷÷Âî1
 z
 java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(’Ø¾ıÿÿÿÿ8ø÷Âî1
-t
-java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(¹èè]8ø÷Âî1
+u
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(±»Ä¦8ø÷Âî1
 z
 java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ã–ğÒûÿÿÿÿ8ø÷Âî1

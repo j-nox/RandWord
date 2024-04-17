@@ -13,7 +13,7 @@ import words.*;
 public class Session extends HttpServlet {
     private HttpSession session;
     private User user;
-    private Dictionary dictionary = new words.Dictionary();
+    private Dictionary dictionary = words.Dictionary.getInstance();
     private LearnedWords learnedWords;
     public Session (HttpServletRequest request)
             throws ServletException, IOException {

@@ -16,3 +16,10 @@ INFO  | 2024-04-17 21:33:24 | [Thread-6] words.Dictionary$1 (Dictionary.java:33)
 INFO  | 2024-04-17 21:33:24 | [Thread-7] words.Dictionary$1 (Dictionary.java:33) - Dictionary has been created
 INFO  | 2024-04-17 21:33:29 | [Thread-8] words.Dictionary$1 (Dictionary.java:33) - Dictionary has been created
 INFO  | 2024-04-17 21:33:29 | [Thread-9] words.Dictionary$1 (Dictionary.java:33) - Dictionary has been created
+INFO  | 2024-04-17 21:55:40 | [Thread-2] words.Dictionary$1 (Dictionary.java:33) - Dictionary has been created
+INFO  | 2024-04-17 21:55:40 | [Thread-3] words.Dictionary$1 (Dictionary.java:33) - Dictionary has been created
+INFO  | 2024-04-17 22:12:41 | [Thread-3] words.Dictionary$1 (Dictionary.java:31) - Dictionary has been created
+INFO  | 2024-04-17 22:12:41 | [Thread-2] words.Dictionary$1 (Dictionary.java:31) - Dictionary has been created
+INFO  | 2024-04-17 22:29:59 | [Thread-2] words.Dictionary$1 (Dictionary.java:32) - Dictionary has been created
+INFO  | 2024-04-17 22:33:15 | [Thread-2] words.Dictionary$1 (Dictionary.java:34) - Dictionary has been created
+INFO  | 2024-04-17 22:37:12 | [Thread-2] words.Dictionary$1 (Dictionary.java:34) - Dictionary has been created

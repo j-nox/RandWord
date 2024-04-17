@@ -24,7 +24,7 @@ public class getWord extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         Session session = new words.Session(request);
         PrintWriter printOut = response.getWriter();
-        HashMap<String, ArrayList<String>> randWord = new Dictionary().getWord();
+        HashMap<String, ArrayList<String>> randWord = words.Dictionary.getInstance().getWord();
 
         User user = session.getCurrentUser();
 

@@ -28,7 +28,7 @@ public class checkWord extends HttpServlet {
         String translate = request.getParameter("translate");
         Session session = new words.Session(request);
 
-        Dictionary dictionary = new Dictionary();
+        Dictionary dictionary = words.Dictionary.getInstance();
         boolean checkWord = dictionary.checkWord(currentWord, translate);
         if (checkWord) {
             response.getWriter().write("1");
