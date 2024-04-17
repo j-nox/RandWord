@@ -1,14 +1,0 @@
-
-o
-java:S1192"MDefine a constant instead of duplicating this literal "learnedWords" 6 times.(šäâ¬şÿÿÿÿ8Å¹éí1
-…
-java:S1488!"cImmediately return this expression instead of assigning it to the temporary variable "currentUser".(®ğ½Ãÿÿÿÿÿ8‘Å¹éí1
-‹
-java:S1488%"iImmediately return this expression instead of assigning it to the temporary variable "currentDictionary".(ã¹À×ùÿÿÿÿ8‘Å¹éí1
-8
-java:S1700"Rename field "session"(Ç…™Ûûÿÿÿÿ8’Å¹éí1
-D
-java:S1125"'Remove the unnecessary boolean literal.(é¨«ˆ8¢Å¹éí1
-]	java:S125"<This block of commented-out lines of code should be removed.(‚ÓëŒÿÿÿÿÿ8¦Å¹éí1
-z
-java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ç…™Ûûÿÿÿÿ8²Å¹éí1

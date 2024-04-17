@@ -4,8 +4,11 @@ import com.jayway.jsonpath.JsonPath;
 import java.io.*;
 import java.nio.file.Files;
 import java.util.*;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Dictionary {
+    private static final Logger LOG = LogManager.getLogger(Dictionary.class);
     private static Dictionary INSTANCE;
     private static String json;
     private static File file = new File("/Users/web/IdeaProjects/RandWord/src/main/resources/en5000.json");
@@ -27,6 +30,7 @@ public class Dictionary {
                     json = new String(Files.readAllBytes(file.toPath()));
                     words = JsonPath.read(json, "$.store.book[*].word");
                     translations = JsonPath.read(json, "$.store.book[*].rus");
+                    LOG.info("Dictionary has been created");
                 } catch (Exception e) {
                     e.printStackTrace();
                 }

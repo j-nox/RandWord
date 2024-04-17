@@ -1,0 +1,18 @@
+INFO  | 2024-04-17 21:30:59 | [http-nio-8080-exec-1] words.Dictionary (Dictionary.java:28) - This Will Be Printed On Info
+WARN  | 2024-04-17 21:30:59 | [http-nio-8080-exec-1] words.Dictionary (Dictionary.java:29) - This Will Be Printed On Warn
+ERROR | 2024-04-17 21:30:59 | [http-nio-8080-exec-1] words.Dictionary (Dictionary.java:30) - This Will Be Printed On Error
+FATAL | 2024-04-17 21:30:59 | [http-nio-8080-exec-1] words.Dictionary (Dictionary.java:31) - This Will Be Printed On Fatal
+INFO  | 2024-04-17 21:30:59 | [http-nio-8080-exec-1] words.Dictionary (Dictionary.java:33) - Appending string: Hello, World.
+INFO  | 2024-04-17 21:30:59 | [http-nio-8080-exec-1] words.Dictionary (Dictionary.java:28) - This Will Be Printed On Info
+WARN  | 2024-04-17 21:30:59 | [http-nio-8080-exec-1] words.Dictionary (Dictionary.java:29) - This Will Be Printed On Warn
+ERROR | 2024-04-17 21:30:59 | [http-nio-8080-exec-1] words.Dictionary (Dictionary.java:30) - This Will Be Printed On Error
+FATAL | 2024-04-17 21:30:59 | [http-nio-8080-exec-1] words.Dictionary (Dictionary.java:31) - This Will Be Printed On Fatal
+INFO  | 2024-04-17 21:30:59 | [http-nio-8080-exec-1] words.Dictionary (Dictionary.java:33) - Appending string: Hello, World.
+INFO  | 2024-04-17 21:33:04 | [Thread-3] words.Dictionary$1 (Dictionary.java:33) - Dictionary has been created
+INFO  | 2024-04-17 21:33:04 | [Thread-2] words.Dictionary$1 (Dictionary.java:33) - Dictionary has been created
+INFO  | 2024-04-17 21:33:24 | [Thread-5] words.Dictionary$1 (Dictionary.java:33) - Dictionary has been created
+INFO  | 2024-04-17 21:33:24 | [Thread-4] words.Dictionary$1 (Dictionary.java:33) - Dictionary has been created
+INFO  | 2024-04-17 21:33:24 | [Thread-6] words.Dictionary$1 (Dictionary.java:33) - Dictionary has been created
+INFO  | 2024-04-17 21:33:24 | [Thread-7] words.Dictionary$1 (Dictionary.java:33) - Dictionary has been created
+INFO  | 2024-04-17 21:33:29 | [Thread-8] words.Dictionary$1 (Dictionary.java:33) - Dictionary has been created
+INFO  | 2024-04-17 21:33:29 | [Thread-9] words.Dictionary$1 (Dictionary.java:33) - Dictionary has been created

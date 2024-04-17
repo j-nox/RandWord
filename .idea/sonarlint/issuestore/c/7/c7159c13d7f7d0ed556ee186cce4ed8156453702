@@ -8,19 +8,3 @@ java:S1161":Add the "@Override" annotation above this method signature(ÅµÄè
 java:S1989"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(áò‰øÿÿÿÿ
 f
 java:S1989""PHandle the following exception that could be thrown by "getWriter": IOException.(€“µ«
-F
-java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓŞÏÛ
-F
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
-I
-java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
-F
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
-R
-java:S1128	"<Remove this unused import 'javax.servlet.RequestDispatcher'.(Ëöò¼
-Q
-java:S1128";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô
-F
-java:S1128"0Remove this unused import 'java.net.URLDecoder'.(œ®ô„
-F
-java:S1128"0Remove this unused import 'java.net.URLEncoder'.(ê¢ºÆ
