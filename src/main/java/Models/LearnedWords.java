@@ -16,4 +16,7 @@ public class LearnedWords {
     public boolean checkLearnedWord(String word) {
         return learnedWords.contains(word);
     }
+    public void removeWord(String word) {
+        learnedWords.remove(word);
+    }
 }

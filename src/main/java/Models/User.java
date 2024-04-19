@@ -11,6 +11,9 @@ public class User {
     public void addScore() {
         this.score = this.score + 1;
     }
+    public void deleteScore() {
+        this.score = this.score - 1;
+    }
 
     public int getScore() {
         return score;

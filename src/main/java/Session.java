@@ -37,6 +37,10 @@ public class Session extends HttpServlet {
         user.addScore();
         updateDataSession("user", user);
     }
+    public void deleteUserScore() {
+        user.deleteScore();
+        updateDataSession("user", user);
+    }
     public void addLearnedWords(String word) {
         learnedWords.addLearnedWord(word);
         updateDataSession("learnedWords", learnedWords);
@@ -47,6 +51,11 @@ public class Session extends HttpServlet {
     }
 
     public List<String> getLearnedWords() { return learnedWords.getLearnedWords(); }
+
+    public void deleteLearnedWord(String word) {
+        learnedWords.removeWord(word);
+        updateDataSession("learnedWords", learnedWords);
+    }
 
     private void updateDataSession(String name, Object value) {
         session.removeAttribute(name);

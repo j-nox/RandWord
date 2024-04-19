@@ -30,4 +30,16 @@
     <url-pattern>/checkWord</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>deleteLearnedWord</servlet-name>
+    <servlet-class>
+      words.deleteLearnedWord
+    </servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>deleteLearnedWord</servlet-name>
+    <url-pattern>/deleteLearnedWord</url-pattern>
+  </servlet-mapping>
+
 </web-app>

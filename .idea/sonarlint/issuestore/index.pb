@@ -19,3 +19,7 @@ U
 %src/main/java/Servlets/checkWord.java,c/7/c7159c13d7f7d0ed556ee186cce4ed8156453702
 S
 #src/main/java/Servlets/getWord.java,a/b/abffda0d71b6c92a7351b577c82e6553b2bb597a
+]
+-src/main/java/Servlets/deleteWordLearned.java,c/f/cf57ab6e176af53194850b7e02adaf0a982af8ca
+]
+-src/main/java/Servlets/deleteLearnedWord.java,e/7/e7091a957c066f962de7b5c4b3e2e7d7718a979d

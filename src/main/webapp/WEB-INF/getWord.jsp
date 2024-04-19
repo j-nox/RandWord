@@ -46,6 +46,21 @@ response.setCharacterEncoding("UTF-8");
                     }
                 });
             });
+
+            const deleteLearnedWord = "/RandWord/deleteLearnedWord";
+            $(document).on("click", ".deleteLearnedWord", function() {
+                const deleteWordLi = $(event.target).parent();
+                var word = deleteWordLi.find('span').text();
+                const params = {
+                    deleteWord: word
+                };
+                $.get(deleteLearnedWord, $.param(params), function(responseText) {
+                    if (responseText == "1") {
+                        deleteWordLi.remove();
+                        $("#score").text(parseInt($("#score").text()) - 1);
+                    }
+                });
+            });
         </script>
     </head>
     <body>
@@ -96,7 +111,7 @@ response.setCharacterEncoding("UTF-8");
             <ul class="list-group">
               <%
                 for (String learnedWord : learnedWords) {
-                  out.println("<li class='list-group-item'>" + learnedWord + "</li>");
+                  out.println("<li class='list-group-item'><span>" + learnedWord + "</span><button class='deleteLearnedWord'> | Удалить</button></li>");
                 }
               %>
             </ul>
