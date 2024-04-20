@@ -4,15 +4,16 @@ import java.util.Random;
 
 public class User {
     Random random = new Random();
-    int randomId = random.nextInt(1000);
-    private int id = randomId;
+    private int id = random.nextInt(1000);
     private int score = 0;
 
     public void addScore() {
         score++;
     }
     public void deleteScore() {
-        score--;
+        if (score > 0) {
+            score--;
+        }
     }
 
     public int getScore() {
