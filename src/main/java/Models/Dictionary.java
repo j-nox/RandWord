@@ -9,6 +9,7 @@ import org.apache.logging.log4j.Logger;
 
 public class Dictionary {
     private static final Logger LOG = LogManager.getLogger(Dictionary.class);
+    Thread thread;
     private static Dictionary INSTANCE;
     private static String json;
     private static File file = new File("/Users/web/IdeaProjects/RandWord/src/main/resources/en5000.json");
@@ -29,8 +30,12 @@ public class Dictionary {
             public void run() {
                 try {
                     json = new String(Files.readAllBytes(file.toPath()));
-                    words = JsonPath.read(json, "$.store.book[*].word");
-                    translations = JsonPath.read(json, "$.store.book[*].rus");
+                    synchronized (words) {
+                        words = JsonPath.read(json, "$.store.book[*].word");
+                    }
+                    synchronized (translations) {
+                        translations = JsonPath.read(json, "$.store.book[*].rus");
+                    }
                     LOG.info("Dictionary has been created");
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -38,7 +43,8 @@ public class Dictionary {
                 }
             }
         };
-        Thread thread = new Thread(task);
+
+        thread = new Thread(task);
         thread.start();
     }
 
@@ -47,12 +53,22 @@ public class Dictionary {
         ArrayList<String> randTranslations = new ArrayList<String>();
         Random random = new Random();
         String randWord;
-        int randomIndex = random.nextInt(words.size());
-        randWord = words.get(randomIndex);
-        randTranslations.add(translations.get(randomIndex));
-        for (int i = 0; i < 4; i++) {
-            randomIndex = random.nextInt(translations.size());
+        int randomIndex;
+        synchronized (words) {
+            if (thread.isAlive()) {
+                randomIndex = 0;
+                randWord = words.get(randomIndex);
+            } else {
+                randomIndex = random.nextInt(words.size());
+                randWord = words.get(randomIndex);
+            }
+        }
+        synchronized (translations) {
             randTranslations.add(translations.get(randomIndex));
+            for (int i = 0; i < 4; i++) {
+                randomIndex = random.nextInt(translations.size());
+                randTranslations.add(translations.get(randomIndex));
+            }
         }
         Collections.shuffle(randTranslations);
         HashMap<String, ArrayList<String>> word = new HashMap<>();
