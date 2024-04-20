@@ -56,3 +56,11 @@ INFO  | 2024-04-20 08:19:16 | [Thread-2] words.Dictionary$1 (Dictionary.java:34)
 INFO  | 2024-04-20 08:27:34 | [Thread-2] words.Dictionary$1 (Dictionary.java:34) - Dictionary has been created
 INFO  | 2024-04-20 09:55:55 | [Thread-2] words.Dictionary$1 (Dictionary.java:34) - Dictionary has been created
 INFO  | 2024-04-20 11:44:16 | [Thread-2] words.Dictionary$1 (Dictionary.java:34) - Dictionary has been created
+INFO  | 2024-04-20 11:48:31 | [http-nio-8080-exec-1] words.User (User.java:14) - New user has been created
+INFO  | 2024-04-20 11:48:32 | [Thread-2] words.Dictionary$1 (Dictionary.java:34) - Dictionary has been created
+INFO  | 2024-04-20 11:52:27 | [http-nio-8080-exec-1] words.User (User.java:14) - New user has been created
+INFO  | 2024-04-20 11:52:27 | [http-nio-8080-exec-1] words.Session (Session.java:29) - New session has been created
+INFO  | 2024-04-20 11:52:27 | [Thread-2] words.Dictionary$1 (Dictionary.java:34) - Dictionary has been created
+INFO  | 2024-04-20 11:56:48 | [http-nio-8080-exec-1] words.User (User.java:14) - New user has been created
+INFO  | 2024-04-20 11:56:48 | [http-nio-8080-exec-1] words.Session (Session.java:29) - New session has been created
+INFO  | 2024-04-20 11:56:48 | [Thread-2] words.Dictionary$1 (Dictionary.java:34) - Dictionary has been created

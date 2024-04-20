@@ -4,9 +4,9 @@ java:S2293"YReplace the type specification in this constructor call with the d
 {
 java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ø—çÿÿÿÿÿ8×’ŒÕï1
 {
-java:S2293."YReplace the type specification in this constructor call with the diamond operator ("<>").(åØ´ûÿÿÿÿ8Ø’ŒÕï1
+java:S2293/"YReplace the type specification in this constructor call with the diamond operator ("<>").(åØ´ûÿÿÿÿ8Ø’ŒÕï1
 Š
-java:S1319,"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(ĞÁŒ8Ù’ŒÕï1
+java:S1319-"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(ĞÁŒ8Ù’ŒÕï1
 E
 java:S1604"(Make this anonymous inner class a lambda(¿ÂËó8Ù’ŒÕï1
 ¦
@@ -31,6 +31,6 @@ java:S2696 "6Make the enclosing method "static" or remove this set.(›Ô¼´8µ“ŒÕï
 X
 java:S2696!"6Make the enclosing method "static" or remove this set.(™Ñäğşÿÿÿÿ8·“ŒÕï1
 :
-java:S2119/"Save and re-use this "Random".(¼İÅf8Æ“ŒÕï1
+java:S21190"Save and re-use this "Random".(¼İÅf8Æ“ŒÕï1
 c
-java:S1126B"AReplace this if-then-else statement by a single return statement.(±•–Èüÿÿÿÿ8İ“ŒÕï1
+java:S1126C"AReplace this if-then-else statement by a single return statement.(±•–Èüÿÿÿÿ8İ“ŒÕï1

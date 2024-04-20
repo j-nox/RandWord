@@ -34,6 +34,7 @@ public class Dictionary {
                     LOG.info("Dictionary has been created");
                 } catch (Exception e) {
                     e.printStackTrace();
+                    LOG.error(e.toString());
                 }
             }
         };

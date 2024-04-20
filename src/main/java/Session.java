@@ -8,9 +8,11 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import words.*;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Session extends HttpServlet {
+    private static final Logger LOG = LogManager.getLogger(words.Dictionary.class);
     private HttpSession session;
     private User user;
     private Dictionary dictionary = words.Dictionary.getInstance();
@@ -24,6 +26,7 @@ public class Session extends HttpServlet {
             session.setAttribute("user", user);
             learnedWords = new words.LearnedWords();
             session.setAttribute("learnedWords", learnedWords);
+            LOG.info("New session has been created");
         } else {
             user = (User) session.getAttribute("user");
             learnedWords = (LearnedWords) session.getAttribute("learnedWords");
