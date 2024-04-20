@@ -107,11 +107,11 @@ response.setCharacterEncoding("UTF-8");
               }
               %>
             </div>
-            <h2>Изученные слова</h2>
+            <h2 style='margin-top: 15px;'>Изученные слова</h2>
             <ul class="list-group">
               <%
                 for (String learnedWord : learnedWords) {
-                  out.println("<li class='list-group-item'><span>" + learnedWord + "</span><button class='deleteLearnedWord'> | Удалить</button></li>");
+                  out.println("<li class='list-group-item'><span>" + learnedWord + "</span><button class='deleteLearnedWord' style='margin-left: 15px;'>Удалить</button></li>");
                 }
               %>
             </ul>

@@ -25,3 +25,5 @@ R
 "src/test/java/Models/UserTest.java,9/6/96f7eaa524f231e3b9e49068fb0d439cb3e5f36a
 X
 (src/test/java/Models/DictionaryTest.java,c/2/c2d5a82671e3c7a8dcc6c3e5079dba87cf4e57ca
+Z
+*src/test/java/Models/LearnedWordsTest.java,e/0/e0f80f000f5237ce2743d6f4606514461da7c0c3
