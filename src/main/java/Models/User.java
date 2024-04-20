@@ -9,10 +9,10 @@ public class User {
     private int score = 0;
 
     public void addScore() {
-        this.score = this.score + 1;
+        score++;
     }
     public void deleteScore() {
-        this.score = this.score - 1;
+        score--;
     }
 
     public int getScore() {

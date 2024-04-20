@@ -46,8 +46,8 @@ public class Session extends HttpServlet {
         updateDataSession("learnedWords", learnedWords);
     }
 
-    public boolean checkLearnedWords(String word) {
-        return learnedWords.checkLearnedWord(word);
+    public boolean findLearnedWords(String word) {
+        return learnedWords.findLearnedWord(word);
     }
 
     public List<String> getLearnedWords() { return learnedWords.getLearnedWords(); }

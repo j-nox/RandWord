@@ -35,7 +35,7 @@ public class getWord extends HttpServlet {
         boolean learned = true;
         while (learned) {
             for (String key : randWord.keySet()) {
-                if (session.checkLearnedWords(key)) {
+                if (session.findLearnedWords(key)) {
                     randWord = session.getCurrentDictionary().getWord();
                 } else {
                     request.setAttribute("word", key);

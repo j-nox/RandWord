@@ -13,7 +13,7 @@ public class LearnedWords {
         return learnedWords;
     }
 
-    public boolean checkLearnedWord(String word) {
+    public boolean findLearnedWord(String word) {
         return learnedWords.contains(word);
     }
     public void removeWord(String word) {
