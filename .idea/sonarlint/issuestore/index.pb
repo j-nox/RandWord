@@ -23,3 +23,5 @@ S
 -src/main/java/Servlets/deleteLearnedWord.java,e/7/e7091a957c066f962de7b5c4b3e2e7d7718a979d
 R
 "src/test/java/Models/UserTest.java,9/6/96f7eaa524f231e3b9e49068fb0d439cb3e5f36a
+X
+(src/test/java/Models/DictionaryTest.java,c/2/c2d5a82671e3c7a8dcc6c3e5079dba87cf4e57ca
