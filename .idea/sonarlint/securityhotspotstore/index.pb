@@ -27,3 +27,15 @@ X
 (src/test/java/Models/DictionaryTest.java,c/2/c2d5a82671e3c7a8dcc6c3e5079dba87cf4e57ca
 Z
 *src/test/java/Models/LearnedWordsTest.java,e/0/e0f80f000f5237ce2743d6f4606514461da7c0c3
+O
+src/main/java/Models/Image.java,1/0/10302c4fff5dbc06675aa052e6f1f521d26f4196
+T
+$src/main/java/Servlets/getImage.java,d/1/d1486e4a38eae99ea061d76683b699193ccf3511
+U
+%src/main/java/Servlets/getImages.java,e/4/e4250005e9ac0969716102fde3da69272e054058
+V
+&src/main/java/Servlets/wordImages.java,4/2/42ef14daa81fdb1fa3bba10d54af5039fcd26d42
+S
+#src/main/java/Servlets/wordApi.java,f/5/f5251bc8a9908868ea180fce4506cfdfe4ef4deb
+W
+'src/main/java/Servlets/getImageApi.java,e/c/ec116930e34dc4a3720a3814f7a6a67950ce1dca

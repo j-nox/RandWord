@@ -1,0 +1,10 @@
+
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(έΚ£“8•ÿγο1
+¦
+java:S1598"ƒThis file "getImage.java" should be located in "words" directory, not in "/Users/web/IdeaProjects/RandWord/src/main/java/Servlets".(½‡ƒΩώÿÿÿÿ8–ÿγο1
+W
+java:S1161":Add the "@Override" annotation above this method signature(ΕµΔθ8ÿγο1
+
+java:S1989"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(ας‰ψÿÿÿÿ8 ÿγο1
+r
+java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(¬‹―•ώÿÿÿÿ8Ί¶’δο1

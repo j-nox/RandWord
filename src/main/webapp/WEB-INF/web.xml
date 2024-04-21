@@ -42,4 +42,16 @@
     <url-pattern>/deleteLearnedWord</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>getImageApi</servlet-name>
+    <servlet-class>
+      words.getImageApi
+    </servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>getImageApi</servlet-name>
+    <url-pattern>/getImageApi</url-pattern>
+  </servlet-mapping>
+
 </web-app>

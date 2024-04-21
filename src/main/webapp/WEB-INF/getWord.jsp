@@ -47,6 +47,17 @@ response.setCharacterEncoding("UTF-8");
                 });
             });
 
+            const getImageApi = "/RandWord/getImageApi";
+            $(document).on("click", "#getImageApi", function() {
+                var currentWord = $("#currentWord").text();
+                const params = {
+                    currentWord: currentWord
+                };
+                $.get(getImageApi, $.param(params), function(responseText) {
+                    $("#wordImageApi").attr("src", responseText);
+                });
+            });
+
             const deleteLearnedWord = "/RandWord/deleteLearnedWord";
             $(document).on("click", ".deleteLearnedWord", function() {
                 const deleteWordLi = $(event.target).parent();
@@ -61,6 +72,7 @@ response.setCharacterEncoding("UTF-8");
                     }
                 });
             });
+
         </script>
     </head>
     <body>
@@ -106,6 +118,8 @@ response.setCharacterEncoding("UTF-8");
                 out.println("<a class='btn btn-lg btn-primary translate' href='#' role='button'>" + translate + "</a>");
               }
               %>
+              <button id="getImageApi" class="btn btn-link rounded-pill px-3 col-lg-12 mx-auto fs-5 text-muted">Показать картинку</button>
+              <img id="wordImageApi" class="rounded mx-auto d-block" style="width: 350px;" src="" align="center">
             </div>
             <h2 style='margin-top: 15px;'>Изученные слова</h2>
             <ul class="list-group">
