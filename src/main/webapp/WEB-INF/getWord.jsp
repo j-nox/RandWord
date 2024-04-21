@@ -39,6 +39,9 @@ response.setCharacterEncoding("UTF-8");
                 $.get(checkWordServlet, $.param(params), function(responseText) {
                     if (responseText == "1") {
                         $("#score").text(parseInt($("#score").text()) + 1);
+                        $("#btn-score").removeClass('btn-primary');
+                        $("#btn-score").addClass('btn-success');
+                        setTimeout(function() {}, 1500);
                         location.reload();
                     } else {
                         btn.removeClass('btn-primary');
@@ -99,7 +102,7 @@ response.setCharacterEncoding("UTF-8");
                   <button class="btn btn-primary">
                     User #<% out.println(userId); %>
                   </button>
-                  <button style="margin-left: 15px;" class="btn btn-primary">
+                  <button id="btn-score" style="margin-left: 15px;" class="btn btn-primary">
                     Слов выучено: <span id="score"><% out.println(userScore); %></span>
                   </button>
                 </div>
