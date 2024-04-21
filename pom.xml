@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.example</groupId>
-  <artifactId>RandCity</artifactId>
+  <artifactId>5000 words</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>RandCity Maven Webapp</name>
+  <name>5000 english words</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -61,7 +61,7 @@
   </dependencies>
 
   <build>
-    <finalName>RandCity</finalName>
+    <finalName>5000 english words</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>

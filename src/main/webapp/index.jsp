@@ -10,8 +10,9 @@ response.setCharacterEncoding("UTF-8");
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <body>
-<h2>Hello World!</h2>
+    <h1 align="center">Изучи 5000 английских слов</h1>
 
-Привет!
+    <a href="/RandWord/getWord"><h2 align="center">Начать</h2></a>
+
 </body>
 </html>

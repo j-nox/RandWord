@@ -1,31 +1,10 @@
 
 1
-java:S1700"Rename field "image"(Êº¼¨8¦ëºüï1
+java:S1700"Rename field "image"(Êº¼¨8¦ëºüï1
  
 java:S1598"~This file "Image.java" should be located in "words" directory, not in "/Users/web/IdeaProjects/RandWord/src/main/java/Models".(½‡ƒÙşÿÿÿÿ8§ëºüï1
 I
-java:S1874",Remove this use of "read"; it is deprecated.(ëŸ«º8¹ëºüï1
+java:S1874",Remove this use of "read"; it is deprecated.(ëŸ«º8¹ëºüï1
 H
-java:S1874"+Remove this use of "URL"; it is deprecated.(ëŸ«º8½ëºüï1
-L	java:S106"+Replace this use of System.out by a logger.(¨¶ÑÍşÿÿÿÿ8Àëºüï1
-@
-java:S1128"$Remove this unused import 'java.io'.(¬›ãD8Âëºüï1
-W
-java:S1128"5Remove this unused import 'java.nio.charset.Charset'.(ü¶ØŸıÿÿÿÿ8Âëºüï1
-M
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Âëºüï1
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ãëºüï1
-O
-java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8Ãëºüï1
-]
-java:S1128	"@Remove this unused import 'org.apache.logging.log4j.LogManager'.(Ë”Ëé8Ãëºüï1
-^
-java:S1128
-"<Remove this unused import 'org.apache.logging.log4j.Logger'.(»¯øÿÿÿÿ8Ãëºüï1
-R
-java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8Äëºüï1
-U
-java:S1128"3Remove this unused import 'org.json.JSONException'.(¹Ó·úÿÿÿÿ8Äëºüï1
-R
-java:S1128"0Remove this unused import 'org.json.JSONObject'.(œÖ´üşÿÿÿÿ8Äëºüï1
+java:S1874"+Remove this use of "URL"; it is deprecated.(ëŸ«º8½ëºüï1
+L	java:S106"+Replace this use of System.out by a logger.(¨¶ÑÍşÿÿÿÿ8Àëºüï1

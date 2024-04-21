@@ -14,30 +14,31 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import words.*;
 
+// Получение и вывод случайного английского слова
 public class getWord extends HttpServlet {
-
-
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html; charset=UTF-8");
         response.setCharacterEncoding("UTF-8");
         request.setCharacterEncoding("UTF-8");
         Session session = new words.Session(request);
-        PrintWriter printOut = response.getWriter();
-        HashMap<String, ArrayList<String>> randWord = words.Dictionary.getInstance().getWord();
-
         User user = session.getCurrentUser();
+        PrintWriter printOut = response.getWriter();
+        // Словарь, содержащий английское слово и 5 вариантов перевода к нему, для отправки данных на fronend
+        HashMap<String, ArrayList<String>> randWord = words.Dictionary.getInstance().getWord();
 
         request.setAttribute("userId", user.getId());
         request.setAttribute("userScore", user.getScore());
         request.setAttribute("learnedWords", session.getLearnedWords());
 
+        // Ищем слово в списке изученных
         boolean learned = true;
         while (learned) {
             for (String key : randWord.keySet()) {
                 if (session.findLearnedWords(key)) {
                     randWord = session.getCurrentDictionary().getWord();
                 } else {
+                    // Если слова нет в списке изученных
                     request.setAttribute("word", key);
                     learned = false;
                 }

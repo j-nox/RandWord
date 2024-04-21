@@ -78,7 +78,7 @@ response.setCharacterEncoding("UTF-8");
 
         </script>
     </head>
-    <body>
+    <body style="padding-bottom: 50px;">
           <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">5000 слов</a>

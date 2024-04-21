@@ -11,6 +11,7 @@ import java.util.List;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+// Создание и работа с сессией
 public class Session extends HttpServlet {
     private static final Logger LOG = LogManager.getLogger(words.Dictionary.class);
     private HttpSession session;
@@ -20,13 +21,17 @@ public class Session extends HttpServlet {
     public Session (HttpServletRequest request)
             throws ServletException, IOException {
         session = request.getSession();
+        // Сбрасывать сессию при закрытии браузера
         session.setMaxInactiveInterval(-1);
+        // Если сессия существует
         if (session.isNew() == true) {
             user = new words.User();
             session.setAttribute("user", user);
             learnedWords = new words.LearnedWords();
             session.setAttribute("learnedWords", learnedWords);
+            // Пишем в лог, что сессия создана
             LOG.info("New session has been created");
+        // Если сессия не существует
         } else {
             user = (User) session.getAttribute("user");
             learnedWords = (LearnedWords) session.getAttribute("learnedWords");

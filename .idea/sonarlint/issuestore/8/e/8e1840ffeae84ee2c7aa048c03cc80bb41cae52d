@@ -1,7 +1,7 @@
 
 t
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(«Ûõþùÿÿÿÿ
+java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(«Ûõþùÿÿÿÿ
 6
-java:S1700"Rename field "learnedWords"(«Ûõþùÿÿÿÿ
+java:S1700	"Rename field "learnedWords"(«Ûõþùÿÿÿÿ
 ¡
 java:S1598"…This file "LearnedWords.java" should be located in "words" directory, not in "/Users/web/IdeaProjects/RandWord/src/main/java/Models".(½‡ƒÙþÿÿÿÿ
