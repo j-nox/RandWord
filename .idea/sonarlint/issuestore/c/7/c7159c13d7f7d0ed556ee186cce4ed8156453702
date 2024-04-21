@@ -1,15 +1,15 @@
 
-i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ş†ªï8ëœ€ğ1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ş†ªï8ÊšÌ‚ğ1
 §
-java:S1598"„This file "checkWord.java" should be located in "words" directory, not in "/Users/web/IdeaProjects/RandWord/src/main/java/Servlets".(½‡ƒÙşÿÿÿÿ8ìœ€ğ1
+java:S1598"„This file "checkWord.java" should be located in "words" directory, not in "/Users/web/IdeaProjects/RandWord/src/main/java/Servlets".(½‡ƒÙşÿÿÿÿ8ËšÌ‚ğ1
 W
-java:S1161":Add the "@Override" annotation above this method signature(ÅµÄè8õœ€ğ1
+java:S1161":Add the "@Override" annotation above this method signature(ÅµÄè8ÒšÌ‚ğ1
 
-java:S1989"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(áò‰øÿÿÿÿ8÷œ€ğ1
+java:S1989"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(áò‰øÿÿÿÿ8ÓšÌ‚ğ1
 m
-java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(€“µ«8úœ€ğ1
+java:S1989!"PHandle the following exception that could be thrown by "getWriter": IOException.(€“µ«8ÔãŞ‚ğ1
 Y
-java:S1128"<Remove this unused import 'javax.servlet.RequestDispatcher'.(Ëöò¼8úœ€ğ1
+java:S1128"<Remove this unused import 'javax.servlet.RequestDispatcher'.(Ëöò¼8ñĞ‚ğ1
 X
 java:S1128
-";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8ûœ€ğ1
+";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8òĞ‚ğ1

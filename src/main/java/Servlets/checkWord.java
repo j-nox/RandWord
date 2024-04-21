@@ -20,14 +20,17 @@ public class checkWord extends HttpServlet {
         String currentWord = request.getParameter("currentWord");
         String translate = request.getParameter("translate");
         Session session = new words.Session(request);
+        User currentUser = session.getCurrentUser();
+        LearnedWords learnedWords = session.getLearnedWords();
         Dictionary dictionary = words.Dictionary.getInstance();
         // Проверяем перевод слова
         boolean checkWord = dictionary.checkWord(currentWord, translate);
         if (checkWord) {
             // Отправляем ответ
+            currentUser.addScore();
+            learnedWords.addLearnedWord(currentWord);
+
             response.getWriter().write("1");
-            session.addUserScore();
-            session.addLearnedWords(currentWord);
         }
     }
 }

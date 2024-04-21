@@ -17,10 +17,12 @@ public class deleteLearnedWord extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
 
         Session session = new words.Session(request);
+        LearnedWords learnedWords = session.getLearnedWords();
+        User currentUser = session.getCurrentUser();
         String deleteWord = request.getParameter("deleteWord");
         // Удаляем слово из списка
-        session.deleteLearnedWord(deleteWord);
-        session.deleteUserScore();
+        learnedWords.removeWord(deleteWord);
+        currentUser.deleteScore();
         response.getWriter().write("1");
     }
 }

@@ -7,8 +7,8 @@ java:S1161":Add the "@Override" annotation above this method signature(ÅµÄè8á
 
 java:S1989"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(áò‰øÿÿÿÿ8â–¸€ğ1
 m
-java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(€“µ«8ç–¸€ğ1
+java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(€“µ«8ç–¸€ğ1
 Y
-java:S1128"<Remove this unused import 'javax.servlet.RequestDispatcher'.(Ëöò¼8ç–¸€ğ1
+java:S1128"<Remove this unused import 'javax.servlet.RequestDispatcher'.(Ëöò¼8º¹‰ƒğ1
 X
-java:S1128	";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8ç–¸€ğ1
+java:S1128	";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8º¹‰ƒğ1

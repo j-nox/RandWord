@@ -23,19 +23,19 @@ public class getWord extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         Session session = new words.Session(request);
         User user = session.getCurrentUser();
-        PrintWriter printOut = response.getWriter();
+        LearnedWords learnedWords = session.getLearnedWords();
         // Словарь, содержащий английское слово и 5 вариантов перевода к нему, для отправки данных на fronend
         HashMap<String, ArrayList<String>> randWord = words.Dictionary.getInstance().getWord();
 
         request.setAttribute("userId", user.getId());
         request.setAttribute("userScore", user.getScore());
-        request.setAttribute("learnedWords", session.getLearnedWords());
+        request.setAttribute("learnedWords", learnedWords.getLearnedWords());
 
         // Ищем слово в списке изученных
         boolean learned = true;
         while (learned) {
             for (String key : randWord.keySet()) {
-                if (session.findLearnedWords(key)) {
+                if (learnedWords.findLearnedWord(key)) {
                     randWord = session.getCurrentDictionary().getWord();
                 } else {
                     // Если слова нет в списке изученных
