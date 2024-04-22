@@ -52,3 +52,15 @@ INFO  | 2024-04-21 14:22:53 | [Thread-2] words.Dictionary$1 (Dictionary.java:50)
 INFO  | 2024-04-21 14:26:50 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
 INFO  | 2024-04-21 14:26:50 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
 INFO  | 2024-04-21 14:26:50 | [Thread-2] words.Dictionary$1 (Dictionary.java:50) - Dictionary has been created
+INFO  | 2024-04-21 22:58:31 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-21 22:58:31 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-21 22:58:31 | [Thread-2] words.Dictionary$1 (Dictionary.java:50) - Dictionary has been created
+INFO  | 2024-04-22 21:53:48 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-22 21:53:48 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-22 21:53:48 | [Thread-2] words.Dictionary$1 (Dictionary.java:50) - Dictionary has been created
+INFO  | 2024-04-22 21:56:03 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-22 21:56:03 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-22 21:56:03 | [Thread-2] words.Dictionary$1 (Dictionary.java:50) - Dictionary has been created
+INFO  | 2024-04-22 21:58:05 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-22 21:58:05 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-22 21:58:06 | [Thread-2] words.Dictionary$1 (Dictionary.java:50) - Dictionary has been created

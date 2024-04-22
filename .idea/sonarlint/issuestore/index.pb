@@ -39,3 +39,5 @@ S
 #src/main/java/Servlets/wordApi.java,f/5/f5251bc8a9908868ea180fce4506cfdfe4ef4deb
 W
 'src/main/java/Servlets/getImageApi.java,e/c/ec116930e34dc4a3720a3814f7a6a67950ce1dca
+N
+src/main/java/Models/Word.java,8/9/891428b7e006e34c872cca40577e654aa98a3821

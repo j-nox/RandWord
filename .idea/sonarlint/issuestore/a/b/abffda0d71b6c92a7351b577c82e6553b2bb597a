@@ -1,24 +1,24 @@
 
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÉÚ½Ì
-ž
-java:S1598"‚This file "getWord.java" should be located in "words" directory, not in "/Users/web/IdeaProjects/RandWord/src/main/java/Servlets".(½‡ƒÙþÿÿÿÿ
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÉÚ½Ì8˜ü™¹ð1
+¥
+java:S1598"‚This file "getWord.java" should be located in "words" directory, not in "/Users/web/IdeaProjects/RandWord/src/main/java/Servlets".(½‡ƒÙþÿÿÿÿ8™ü™¹ð1
 W
-java:S1854"<Remove this useless assignment to local variable "printOut".(ã‚÷Øûÿÿÿÿ
-P
-java:S1161":Add the "@Override" annotation above this method signature(ÅµÄè
-‡
-java:S1989"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(áò‰øÿÿÿÿ
-k
-java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(ã‚÷Øûÿÿÿÿ
-H
-java:S1481"-Remove this unused "printOut" local variable.(ã‚÷Øûÿÿÿÿ
-v
-java:S19895"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(Üèû	
+java:S1161":Add the "@Override" annotation above this method signature(ÅµÄè8œü™¹ð1
+Ž
+java:S1989"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(áò‰øÿÿÿÿ8ü™¹ð1
+}
+java:S1989/"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(Üèû	8¥ü™¹ð1
 M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8–‘æ‚ð1
+java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓÞÏÛ8ÅÝ¹ð1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ÅÝ¹ð1
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ÅÝ¹ð1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÅÝ¹ð1
 Y
-java:S1128	"<Remove this unused import 'javax.servlet.RequestDispatcher'.(Ëöò¼8—‘æ‚ð1
+java:S1128	"<Remove this unused import 'javax.servlet.RequestDispatcher'.(Ëöò¼8ÅÝ¹ð1
 X
-java:S1128";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8—‘æ‚ð1
+java:S1128";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8ÅÝ¹ð1
 q
-java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(Ä’Œ›8—‘æ‚ð1
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(Ä’Œ›8ÅÝ¹ð1

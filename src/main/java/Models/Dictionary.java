@@ -60,7 +60,7 @@ public class Dictionary {
         thread.start();
     }
     // Метод для получения случайного слова из списка инглийских слов
-    public HashMap<String, ArrayList<String>> getWord() {
+    public Word getWord() {
         ArrayList<String> randTranslations = new ArrayList<String>();
         Random random = new Random();
         String randWord;
@@ -89,11 +89,10 @@ public class Dictionary {
         }
         // Перемешиваем список переводов к слову
         Collections.shuffle(randTranslations);
-        HashMap<String, ArrayList<String>> word = new HashMap<>();
-        // Возвращаем английское слово и 5 переводов к нему
-        word.put(randWord, randTranslations);
 
-        return word;
+        // Возвращаем английское слово и 5 переводов к нему
+        Word resultWord = new Word(randWord, randTranslations);
+        return resultWord;
     }
     // Проверка перевода слова
     public boolean checkWord(String currentWord, String translate) {

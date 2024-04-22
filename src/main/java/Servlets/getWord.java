@@ -24,8 +24,8 @@ public class getWord extends HttpServlet {
         Session session = new words.Session(request);
         User user = session.getCurrentUser();
         LearnedWords learnedWords = session.getLearnedWords();
-        // Словарь, содержащий английское слово и 5 вариантов перевода к нему, для отправки данных на fronend
-        HashMap<String, ArrayList<String>> randWord = words.Dictionary.getInstance().getWord();
+        // Объект, содержащий английское слово и 5 вариантов перевода к нему, для отправки данных на fronend
+        Word randWord = session.getCurrentDictionary().getWord();
 
         request.setAttribute("userId", user.getId());
         request.setAttribute("userScore", user.getScore());
@@ -34,19 +34,14 @@ public class getWord extends HttpServlet {
         // Ищем слово в списке изученных
         boolean learned = true;
         while (learned) {
-            for (String key : randWord.keySet()) {
-                if (learnedWords.findLearnedWord(key)) {
-                    randWord = session.getCurrentDictionary().getWord();
-                } else {
-                    // Если слова нет в списке изученных
-                    request.setAttribute("word", key);
-                    learned = false;
-                }
+            if (learnedWords.findLearnedWord(randWord.getWord())) {
+                randWord = session.getCurrentDictionary().getWord();
+            } else {
+                // Если слова нет в списке изученных
+                request.setAttribute("word", randWord.getWord());
+                request.setAttribute("translations", randWord.getTranslations());
+                learned = false;
             }
-        }
-
-        for (ArrayList<String> valuesList : randWord.values()) {
-            request.setAttribute("translations", valuesList);
         }
 
         request.getRequestDispatcher("/WEB-INF/getWord.jsp").forward(request, response);
