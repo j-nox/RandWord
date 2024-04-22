@@ -6,8 +6,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class Word {
-    private String word;
-    private ArrayList<String> translations;
+    private final String word;
+    private final ArrayList<String> translations;
 
     public Word(String word, ArrayList<String> translations) {
         this.word = word;

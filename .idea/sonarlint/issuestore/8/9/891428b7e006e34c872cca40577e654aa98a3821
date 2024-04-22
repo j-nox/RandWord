@@ -3,8 +3,8 @@
 java:S1319"lThe type of "translations" should be an interface such as "List" rather than the implementation "ArrayList".(óĞğßúÿÿÿÿ8‹éù¸ğ1
 
 java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(³åçµ8Œéù¸ğ1
-5
-java:S1700	"Rename field "word"(„¸Øãÿÿÿÿÿ8Œéù¸ğ1
+0
+java:S1700	"Rename field "word"(¬Ë¨8Œéù¸ğ1
 Ÿ
 java:S1598"}This file "Word.java" should be located in "words" directory, not in "/Users/web/IdeaProjects/RandWord/src/main/java/Models".(½‡ƒÙşÿÿÿÿ8éù¸ğ1
 O
