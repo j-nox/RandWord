@@ -41,3 +41,7 @@ W
 'src/main/java/Servlets/getImageApi.java,e/c/ec116930e34dc4a3720a3814f7a6a67950ce1dca
 N
 src/main/java/Models/Word.java,8/9/891428b7e006e34c872cca40577e654aa98a3821
+O
+src/main/java/Models/WordD.java,e/7/e766752f269ce56f591bc1c81baa0ff2cc0a69a7
+U
+%src/main/java/Models/Translation.java,f/7/f77d81afeb901d8573ff7c1e6344643133a0a9d5

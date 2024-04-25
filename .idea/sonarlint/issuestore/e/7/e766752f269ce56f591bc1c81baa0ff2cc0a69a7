@@ -1,0 +1,11 @@
+
+™
+java:S1598"~This file "WordD.java" should be located in "words" directory, not in "/Users/web/IdeaProjects/RandWord/src/main/java/Models".(½‡ƒÙþÿÿÿÿ
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8‰öý³ñ1
+O
+java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8‰öý³ñ1
+]
+java:S1128"@Remove this unused import 'org.apache.logging.log4j.LogManager'.(Ë”Ëé8‰öý³ñ1
+^
+java:S1128"<Remove this unused import 'org.apache.logging.log4j.Logger'.(»¯øÿÿÿÿ8‰öý³ñ1

@@ -7,18 +7,18 @@ java:S1161":Add the "@Override" annotation above this method signature(ÅµÄè8œ
 
 java:S1989"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(áò‰øÿÿÿÿ8ü™¹ğ1
 }
-java:S1989/"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(Üèû	8¥ü™¹ğ1
+java:S1989/"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(Üèû	8šº´µñ1
 M
-java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓŞÏÛ8Åİ¹ğ1
+java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓŞÏÛ8ï ´µñ1
 M
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Åİ¹ğ1
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ï ´µñ1
 P
-java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8Åİ¹ğ1
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ï ´µñ1
 M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Åİ¹ğ1
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ï ´µñ1
 Y
-java:S1128	"<Remove this unused import 'javax.servlet.RequestDispatcher'.(Ëöò¼8Åİ¹ğ1
+java:S1128	"<Remove this unused import 'javax.servlet.RequestDispatcher'.(Ëöò¼8ğ ´µñ1
 X
-java:S1128";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8Åİ¹ğ1
+java:S1128";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8ğ ´µñ1
 q
-java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(Ä’Œ›8Åİ¹ğ1
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(Ä’Œ›8ğ ´µñ1

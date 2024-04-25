@@ -1,0 +1,13 @@
+
+‚
+java:S1319"lThe type of "translations" should be an interface such as "List" rather than the implementation "ArrayList".(××Ö±
+
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(³åçµ8ÅĞ³ñ1
+ 
+java:S1598"„This file "Translation.java" should be located in "words" directory, not in "/Users/web/IdeaProjects/RandWord/src/main/java/Models".(½‡ƒÙşÿÿÿÿ
+O
+java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8’ÅĞ³ñ1
+]
+java:S1128"@Remove this unused import 'org.apache.logging.log4j.LogManager'.(Ë”Ëé8’ÅĞ³ñ1
+^
+java:S1128"<Remove this unused import 'org.apache.logging.log4j.Logger'.(»¯øÿÿÿÿ8’ÅĞ³ñ1

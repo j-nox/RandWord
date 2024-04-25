@@ -67,3 +67,80 @@ INFO  | 2024-04-22 21:58:06 | [Thread-2] words.Dictionary$1 (Dictionary.java:50)
 INFO  | 2024-04-22 22:01:10 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
 INFO  | 2024-04-22 22:01:10 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
 INFO  | 2024-04-22 22:01:10 | [Thread-2] words.Dictionary$1 (Dictionary.java:50) - Dictionary has been created
+INFO  | 2024-04-24 20:10:18 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+ERROR | 2024-04-24 20:10:18 | [Thread-2] words.Dictionary$1 (Dictionary.java:66) - java.lang.NullPointerException: Cannot enter synchronized block because the return value of "words.Dictionary.access$300()" is null
+INFO  | 2024-04-24 20:10:18 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+ERROR | 2024-04-24 20:16:56 | [Thread-2] words.Dictionary$1 (Dictionary.java:66) - com.jayway.jsonpath.PathNotFoundException: Missing property in path $['words']
+ERROR | 2024-04-24 20:18:07 | [Thread-2] words.Dictionary$1 (Dictionary.java:66) - com.jayway.jsonpath.PathNotFoundException: Missing property in path $['words']
+ERROR | 2024-04-24 20:20:17 | [Thread-2] words.Dictionary$1 (Dictionary.java:66) - com.jayway.jsonpath.PathNotFoundException: Missing property in path $['store']['words']
+ERROR | 2024-04-24 20:22:39 | [Thread-2] words.Dictionary$1 (Dictionary.java:66) - java.lang.ClassCastException: class net.minidev.json.JSONArray cannot be cast to class java.util.HashMap (net.minidev.json.JSONArray is in unnamed module of loader org.apache.catalina.loader.ParallelWebappClassLoader @4a3631f8; java.util.HashMap is in module java.base of loader 'bootstrap')
+INFO  | 2024-04-24 20:24:42 | [Thread-2] words.Dictionary$1 (Dictionary.java:62) - Dictionary has been created
+INFO  | 2024-04-24 20:25:40 | [Thread-2] words.Dictionary$1 (Dictionary.java:62) - Dictionary has been created
+INFO  | 2024-04-24 20:26:53 | [Thread-2] words.Dictionary$1 (Dictionary.java:62) - Dictionary has been created
+ERROR | 2024-04-24 20:34:58 | [Thread-2] words.Dictionary$1 (Dictionary.java:66) - com.jayway.jsonpath.InvalidJsonException: net.minidev.json.parser.ParseException: Unexpected character (,) at position 48.
+INFO  | 2024-04-24 20:38:22 | [Thread-2] words.Dictionary$1 (Dictionary.java:62) - Dictionary has been created
+INFO  | 2024-04-24 20:38:58 | [Thread-2] words.Dictionary$1 (Dictionary.java:62) - Dictionary has been created
+ERROR | 2024-04-24 20:40:03 | [Thread-2] words.Dictionary$1 (Dictionary.java:66) - java.lang.ClassCastException: class net.minidev.json.JSONArray cannot be cast to class java.util.HashMap (net.minidev.json.JSONArray is in unnamed module of loader org.apache.catalina.loader.ParallelWebappClassLoader @1f81aa00; java.util.HashMap is in module java.base of loader 'bootstrap')
+INFO  | 2024-04-24 21:38:00 | [Thread-2] words.Dictionary$1 (Dictionary.java:64) - Dictionary has been created
+INFO  | 2024-04-24 21:48:20 | [Thread-2] words.Dictionary$1 (Dictionary.java:64) - Dictionary has been created
+ERROR | 2024-04-24 22:00:45 | [Thread-2] words.Dictionary$1 (Dictionary.java:68) - java.lang.ClassCastException: class net.minidev.json.JSONArray cannot be cast to class java.util.HashMap (net.minidev.json.JSONArray is in unnamed module of loader org.apache.catalina.loader.ParallelWebappClassLoader @28b46423; java.util.HashMap is in module java.base of loader 'bootstrap')
+ERROR | 2024-04-24 22:01:14 | [Thread-2] words.Dictionary$1 (Dictionary.java:68) - java.lang.ClassCastException: class net.minidev.json.JSONArray cannot be cast to class java.util.HashMap (net.minidev.json.JSONArray is in unnamed module of loader org.apache.catalina.loader.ParallelWebappClassLoader @53b7f657; java.util.HashMap is in module java.base of loader 'bootstrap')
+ERROR | 2024-04-24 22:11:27 | [Thread-2] words.Dictionary$1 (Dictionary.java:70) - java.lang.ClassCastException: class net.minidev.json.JSONArray cannot be cast to class java.util.HashMap (net.minidev.json.JSONArray is in unnamed module of loader org.apache.catalina.loader.ParallelWebappClassLoader @1f81aa00; java.util.HashMap is in module java.base of loader 'bootstrap')
+INFO  | 2024-04-24 22:11:58 | [Thread-2] words.Dictionary$1 (Dictionary.java:66) - Dictionary has been created
+ERROR | 2024-04-24 22:26:36 | [Thread-2] words.Dictionary$1 (Dictionary.java:69) - java.lang.NullPointerException: Cannot invoke "java.util.HashMap.keySet()" because the return value of "words.Dictionary.access$500()" is null
+INFO  | 2024-04-24 22:27:55 | [Thread-2] words.Dictionary$1 (Dictionary.java:64) - Dictionary has been created
+ERROR | 2024-04-24 22:29:12 | [Thread-2] words.Dictionary$1 (Dictionary.java:68) - java.lang.ClassCastException: class net.minidev.json.JSONArray cannot be cast to class words.Word (net.minidev.json.JSONArray and words.Word are in unnamed module of loader org.apache.catalina.loader.ParallelWebappClassLoader @26df6e3a)
+ERROR | 2024-04-24 22:38:24 | [Thread-2] words.Dictionary$1 (Dictionary.java:72) - java.lang.NullPointerException: Cannot invoke "java.util.HashMap.putAll(java.util.Map)" because the return value of "words.Dictionary.access$500()" is null
+ERROR | 2024-04-24 22:39:29 | [Thread-2] words.Dictionary$1 (Dictionary.java:72) - java.lang.NullPointerException: Cannot invoke "java.util.HashMap.putAll(java.util.Map)" because the return value of "words.Dictionary.access$500()" is null
+ERROR | 2024-04-24 22:40:47 | [Thread-2] words.Dictionary$1 (Dictionary.java:72) - java.lang.NullPointerException: Cannot invoke "java.util.HashMap.putAll(java.util.Map)" because the return value of "words.Dictionary.access$500()" is null
+ERROR | 2024-04-24 22:41:35 | [Thread-2] words.Dictionary$1 (Dictionary.java:72) - java.lang.NullPointerException: Cannot invoke "java.util.HashMap.get(Object)" because the return value of "words.Dictionary.access$500()" is null
+ERROR | 2024-04-24 22:42:16 | [Thread-2] words.Dictionary$1 (Dictionary.java:72) - java.lang.NullPointerException: Cannot invoke "java.util.HashMap.putAll(java.util.Map)" because the return value of "words.Dictionary.access$500()" is null
+INFO  | 2024-04-24 22:42:45 | [Thread-2] words.Dictionary$1 (Dictionary.java:66) - Dictionary has been created
+INFO  | 2024-04-24 22:43:30 | [Thread-2] words.Dictionary$1 (Dictionary.java:68) - Dictionary has been created
+ERROR | 2024-04-24 22:48:51 | [Thread-2] words.Dictionary$1 (Dictionary.java:72) - java.lang.NullPointerException: Cannot invoke "java.util.HashMap.putAll(java.util.Map)" because the return value of "words.Dictionary.access$500()" is null
+ERROR | 2024-04-24 22:58:25 | [Thread-2] words.Dictionary$1 (Dictionary.java:70) - java.lang.ClassCastException: class java.util.LinkedHashMap cannot be cast to class words.Word (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; words.Word is in unnamed module of loader org.apache.catalina.loader.ParallelWebappClassLoader @43599640)
+ERROR | 2024-04-24 23:03:37 | [Thread-2] words.Dictionary$1 (Dictionary.java:70) - java.lang.ClassCastException: class java.util.LinkedHashMap cannot be cast to class words.WordD (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; words.WordD is in unnamed module of loader org.apache.catalina.loader.ParallelWebappClassLoader @7fc4780b)
+ERROR | 2024-04-24 23:14:00 | [Thread-2] words.Dictionary$1 (Dictionary.java:74) - java.lang.NullPointerException: Cannot invoke "java.util.HashMap.put(Object, Object)" because the return value of "words.Dictionary.access$500()" is null
+INFO  | 2024-04-25 20:28:25 | [Thread-2] words.Dictionary$1 (Dictionary.java:66) - Dictionary has been created
+INFO  | 2024-04-25 22:09:34 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-25 22:09:34 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-25 22:09:34 | [Thread-2] words.Dictionary$1 (Dictionary.java:50) - Dictionary has been created
+INFO  | 2024-04-25 22:11:53 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-25 22:11:53 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-25 22:11:54 | [Thread-2] words.Dictionary$1 (Dictionary.java:50) - Dictionary has been created
+INFO  | 2024-04-25 22:13:28 | [Thread-2] words.Dictionary$1 (Dictionary.java:50) - Dictionary has been created
+INFO  | 2024-04-25 22:13:42 | [http-nio-8080-exec-3] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-25 22:13:42 | [http-nio-8080-exec-3] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-25 22:37:42 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-25 22:37:42 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-25 22:37:43 | [Thread-2] words.Dictionary$1 (Dictionary.java:50) - Dictionary has been created
+INFO  | 2024-04-25 22:44:53 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-25 22:44:53 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-25 22:52:58 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-25 22:52:58 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-25 22:54:03 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-25 22:54:03 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-25 22:58:50 | [http-nio-8080-exec-2] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-25 22:58:50 | [http-nio-8080-exec-2] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-25 22:59:44 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-25 22:59:44 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-25 23:01:16 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-25 23:01:16 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-25 23:08:55 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-25 23:08:55 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-25 23:11:27 | [http-nio-8080-exec-2] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-25 23:11:27 | [http-nio-8080-exec-2] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-25 23:14:47 | [http-nio-8080-exec-2] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-25 23:14:48 | [http-nio-8080-exec-2] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-25 23:24:24 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-25 23:24:24 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-25 23:26:34 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-25 23:26:34 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-25 23:32:03 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-25 23:32:03 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-25 23:33:41 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-25 23:33:41 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-25 23:36:03 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-25 23:36:03 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-25 23:37:48 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-25 23:37:48 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
