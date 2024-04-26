@@ -77,7 +77,7 @@ public class Dictionary {
 
         return resultWord;
     }
-    
+
     // Проверка перевода слова
     public boolean checkWord(String currentWord, String translate) {
         boolean result = false;

@@ -1,24 +1,24 @@
 
-i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÉÚ½Ì8˜ü™¹ğ1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÉÚ½Ì8ïëØÚñ1
 ¥
-java:S1598"‚This file "getWord.java" should be located in "words" directory, not in "/Users/web/IdeaProjects/RandWord/src/main/java/Servlets".(½‡ƒÙşÿÿÿÿ8™ü™¹ğ1
+java:S1598"‚This file "getWord.java" should be located in "words" directory, not in "/Users/web/IdeaProjects/RandWord/src/main/java/Servlets".(½‡ƒÙşÿÿÿÿ8ğëØÚñ1
 W
-java:S1161":Add the "@Override" annotation above this method signature(ÅµÄè8œü™¹ğ1
+java:S1161":Add the "@Override" annotation above this method signature(ÅµÄè8üëØÚñ1
 
-java:S1989"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(áò‰øÿÿÿÿ8ü™¹ğ1
+java:S1989"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(áò‰øÿÿÿÿ8ıëØÚñ1
 }
-java:S1989/"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(Üèû	8šº´µñ1
+java:S19890"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(Üèû	8ìØÚñ1
 M
-java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓŞÏÛ8ï ´µñ1
+java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓŞÏÛ8àÀ†Üñ1
 M
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ï ´µñ1
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8àÀ†Üñ1
 P
-java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ï ´µñ1
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8àÀ†Üñ1
 M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ï ´µñ1
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8àÀ†Üñ1
 Y
-java:S1128	"<Remove this unused import 'javax.servlet.RequestDispatcher'.(Ëöò¼8ğ ´µñ1
+java:S1128	"<Remove this unused import 'javax.servlet.RequestDispatcher'.(Ëöò¼8àÀ†Üñ1
 X
-java:S1128";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8ğ ´µñ1
+java:S1128";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8àÀ†Üñ1
 q
-java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(Ä’Œ›8ğ ´µñ1
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(Ä’Œ›8àÀ†Üñ1

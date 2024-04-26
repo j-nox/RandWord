@@ -144,3 +144,7 @@ INFO  | 2024-04-25 23:36:03 | [http-nio-8080-exec-1] words.User (User.java:16) -
 INFO  | 2024-04-25 23:36:03 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
 INFO  | 2024-04-25 23:37:48 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
 INFO  | 2024-04-25 23:37:48 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-26 20:43:04 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-26 20:43:04 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-26 20:44:35 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-26 20:44:35 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created

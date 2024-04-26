@@ -1,7 +1,11 @@
 
 t
-java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(«Ûõşùÿÿÿÿ
+java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(éÛ¨Ğÿÿÿÿÿ
+
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(òÎõ8ÒŒûÛñ1
 6
-java:S1700	"Rename field "learnedWords"(«Ûõşùÿÿÿÿ
+java:S1700	"Rename field "learnedWords"(éÛ¨Ğÿÿÿÿÿ
 ¡
 java:S1598"…This file "LearnedWords.java" should be located in "words" directory, not in "/Users/web/IdeaProjects/RandWord/src/main/java/Models".(½‡ƒÙşÿÿÿÿ
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÛŒûÛñ1

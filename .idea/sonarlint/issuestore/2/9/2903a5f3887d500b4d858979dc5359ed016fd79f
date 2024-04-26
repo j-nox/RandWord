@@ -1,36 +1,36 @@
 
 v
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ı¶³Ã8ş÷Ò·ñ1
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ı¶³Ã8‡ØöÚñ1
 {
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ø—çÿÿÿÿÿ8ş÷Ò·ñ1
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ø—çÿÿÿÿÿ8‡ØöÚñ1
 v
-java:S2293#"YReplace the type specification in this constructor call with the diamond operator ("<>").(™¡Ûü8ş÷Ò·ñ1
+java:S2293#"YReplace the type specification in this constructor call with the diamond operator ("<>").(™¡Ûü8ˆØöÚñ1
 {
-java:S2293>"YReplace the type specification in this constructor call with the diamond operator ("<>").(åØ´ûÿÿÿÿ8ş÷Ò·ñ1
+java:S2293>"YReplace the type specification in this constructor call with the diamond operator ("<>").(åØ´ûÿÿÿÿ8ˆØöÚñ1
 E
-java:S1604&"(Make this anonymous inner class a lambda(¿ÂËó8ÿ÷Ò·ñ1
+java:S1604&"(Make this anonymous inner class a lambda(¿ÂËó8‰ØöÚñ1
 ¦
-java:S1598"ƒThis file "Dictionary.java" should be located in "words" directory, not in "/Users/web/IdeaProjects/RandWord/src/main/java/Models".(½‡ƒÙşÿÿÿÿ8øÒ·ñ1
+java:S1598"ƒThis file "Dictionary.java" should be located in "words" directory, not in "/Users/web/IdeaProjects/RandWord/src/main/java/Models".(½‡ƒÙşÿÿÿÿ8‹ØöÚñ1
 p
-java:S3008"SRename this field "INSTANCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÂò×8¸øÒ·ñ1
+java:S3008"SRename this field "INSTANCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÂò×8œØöÚñ1
 ¶
 java:S6548
-"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(É’¶Ş8¹øÒ·ñ1
+"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(É’¶Ş8ØöÚñ1
 c
-java:S1075"ARefactor your code to get this URI from a customizable parameter.(…§çßúÿÿÿÿ8ÁøÒ·ñ1
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(…§çßúÿÿÿÿ8¢ØöÚñ1
 C
-java:S3010*"!Remove this assignment of "json".(„³‰¯ıÿÿÿÿ8ì‰â·ñ1
+java:S3010*"!Remove this assignment of "json".(„³‰¯ıÿÿÿÿ8¥ØöÚñ1
 H
-java:S3010+",Remove this assignment of "englishWordsRaw".(„ĞØB8ÄøÒ·ñ1
+java:S3010+",Remove this assignment of "englishWordsRaw".(„ĞØB8¥ØöÚñ1
 X
-java:S2696*"6Make the enclosing method "static" or remove this set.(„³‰¯ıÿÿÿÿ8ï‰â·ñ1
+java:S2696*"6Make the enclosing method "static" or remove this set.(„³‰¯ıÿÿÿÿ8¨ØöÚñ1
 R
-java:S2696+"6Make the enclosing method "static" or remove this set.(„ĞØB8ÍøÒ·ñ1
+java:S2696+"6Make the enclosing method "static" or remove this set.(„ĞØB8«ØöÚñ1
 :
-java:S2119?"Save and re-use this "Random".(¼İÅf8×øÒ·ñ1
+java:S2119?"Save and re-use this "Random".(¼İÅf8°ØöÚñ1
 ‚
-java:S2178U"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(ª°·8âøÒ·ñ1
+java:S2178U"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(ª°·8´ØöÚñ1
 F
-java:S1068")Remove this unused "words" private field.(ı¶³Ã8ìøÒ·ñ1
+java:S1068")Remove this unused "words" private field.(ı¶³Ã8µØöÚñ1
 R
-java:S1068"0Remove this unused "translations" private field.(Ø—çÿÿÿÿÿ8ìøÒ·ñ1
+java:S1068"0Remove this unused "translations" private field.(Ø—çÿÿÿÿÿ8µØöÚñ1
