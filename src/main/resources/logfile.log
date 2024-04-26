@@ -152,3 +152,13 @@ INFO  | 2024-04-26 20:57:17 | [http-nio-8080-exec-1] words.User (User.java:16) -
 INFO  | 2024-04-26 20:57:17 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
 INFO  | 2024-04-26 21:01:35 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
 INFO  | 2024-04-26 21:01:35 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-26 21:02:59 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-26 21:02:59 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-26 21:07:00 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-26 21:07:00 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-26 21:07:28 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-26 21:07:28 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-26 21:14:39 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-26 21:14:39 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-26 21:17:12 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-26 21:17:12 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created

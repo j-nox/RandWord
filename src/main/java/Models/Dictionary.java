@@ -42,9 +42,10 @@ public class Dictionary {
                     englishWordsRaw = JsonPath.read(json, "$.store.words[*]");
                     for (HashMap<String, String> map : englishWordsRaw) {
                         Map.Entry<String,String> entry = map.entrySet().iterator().next();
-                        listEnglishWords.add(new words.Word(entry.getKey(), entry.getValue()));
+                        synchronized (listEnglishWords) {
+                            listEnglishWords.add(new words.Word(entry.getKey(), entry.getValue()));
+                        }
                     }
-
                 } catch (Exception e) {
                     e.printStackTrace();
                     // Выводим ошибки в лог
@@ -61,10 +62,12 @@ public class Dictionary {
         ArrayList<String> randomTranslations = new ArrayList<String>();
         Random random = new Random();
         int randomIndex;
-        randomIndex = random.nextInt(listEnglishWords.size());
-
-        // Возвращаем английское слово и 5 переводов к нему
-        Word resultWord = listEnglishWords.get(randomIndex);
+        Word resultWord;
+        synchronized (listEnglishWords) {
+            randomIndex = random.nextInt(listEnglishWords.size());
+            // Возвращаем английское слово и 5 переводов к нему
+            resultWord = listEnglishWords.get(randomIndex);
+        }
         randomTranslations.add(resultWord.getTranslation());
         for (int i = 0; i < 4; i++) {
             randomIndex = random.nextInt(listEnglishWords.size());
