@@ -166,3 +166,17 @@ INFO  | 2024-04-26 21:24:53 | [http-nio-8080-exec-1] words.User (User.java:16) -
 INFO  | 2024-04-26 21:24:53 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
 INFO  | 2024-04-26 21:25:27 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
 INFO  | 2024-04-26 21:25:27 | [http-nio-8080-exec-1] words.Session (Session.java:32) - New session has been created
+INFO  | 2024-04-26 21:41:57 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-26 21:41:57 | [http-nio-8080-exec-1] words.Session (Session.java:32) - New session has been created
+ERROR | 2024-04-26 21:41:57 | [Thread-2] words.Dictionary$1 (Dictionary.java:54) - com.jayway.jsonpath.PathNotFoundException: Expected to find an object with property ['store'] in path $ but found 'java.io.BufferedReader'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.
+INFO  | 2024-04-26 21:46:55 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-26 21:46:55 | [http-nio-8080-exec-1] words.Session (Session.java:32) - New session has been created
+INFO  | 2024-04-26 21:47:36 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-26 21:47:36 | [http-nio-8080-exec-1] words.Session (Session.java:32) - New session has been created
+INFO  | 2024-04-26 21:59:16 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-26 21:59:16 | [http-nio-8080-exec-1] words.Session (Session.java:32) - New session has been created
+INFO  | 2024-04-26 22:01:28 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-26 22:01:28 | [http-nio-8080-exec-1] words.Session (Session.java:32) - New session has been created
+ERROR | 2024-04-26 22:01:29 | [Thread-2] words.Dictionary$1 (Dictionary.java:52) - com.jayway.jsonpath.PathNotFoundException: Expected to find an object with property ['store'] in path $ but found 'java.io.BufferedReader'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.
+INFO  | 2024-04-26 22:02:18 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-26 22:02:18 | [http-nio-8080-exec-1] words.Session (Session.java:32) - New session has been created

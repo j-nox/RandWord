@@ -3,6 +3,7 @@ package words;
 import com.jayway.jsonpath.JsonPath;
 import java.io.*;
 import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -12,9 +13,8 @@ public class Dictionary {
     Thread thread;
     // Синглтон
     private static Dictionary INSTANCE;
-    private static String json;
     // Путь к json файлу с массивом слов
-    private static File file = new File("/Users/web/IdeaProjects/RandWord/src/main/resources/englishWords50003.json");
+    private static String file = "/Users/web/IdeaProjects/RandWord/src/main/resources/englishWords50003.json";
     // Список англиских слов
     private static List<String> words = new ArrayList<String>();
     // Список переводов
@@ -38,8 +38,8 @@ public class Dictionary {
             public void run() {
                 // Пробуем распарсить json файл
                 try {
-                    json = new String(Files.readAllBytes(file.toPath()));
-                    englishWordsRaw = JsonPath.read(json, "$.store.words[*]");
+                    InputStream json = Files.newInputStream(Paths.get(file));
+                    englishWordsRaw = JsonPath.parse(json).read("$.store.words[*]");
                     for (HashMap<String, String> map : englishWordsRaw) {
                         Map.Entry<String,String> entry = map.entrySet().iterator().next();
                         synchronized (listEnglishWords) {
