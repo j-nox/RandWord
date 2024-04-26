@@ -8,12 +8,17 @@ import org.apache.logging.log4j.Logger;
 public class Word {
     private final String word;
     private final String translation;
-    private ArrayList<String> translations;
+    private ArrayList<String> translations = new ArrayList<String>();
 
     public Word(String word, String translation, ArrayList<String> translations) {
         this.word = word;
         this.translation = translation;
         this.translations = translations;
+    }
+
+    public Word(String word, String translation) {
+        this.word = word;
+        this.translation = translation;
     }
 
     public String getWord() {

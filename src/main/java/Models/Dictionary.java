@@ -32,8 +32,7 @@ public class Dictionary {
 
     private Dictionary() {
         // Первоначальное наполнение списков одним словом и одним переводом
-        ArrayList<String> randTranslations2 = new ArrayList<String>();
-        listEnglishWords.add(new Word("World", "Мир", randTranslations2));
+        listEnglishWords.add(new Word("World", "Мир"));
         // Создание потока для наполнения списка слов
         Runnable task = new Runnable() {
             public void run() {
@@ -43,7 +42,7 @@ public class Dictionary {
                     englishWordsRaw = JsonPath.read(json, "$.store.words[*]");
                     for (HashMap<String, String> map : englishWordsRaw) {
                         Map.Entry<String,String> entry = map.entrySet().iterator().next();
-                        listEnglishWords.add(new words.Word(entry.getKey(), entry.getValue(), randTranslations2));
+                        listEnglishWords.add(new words.Word(entry.getKey(), entry.getValue()));
                     }
 
                 } catch (Exception e) {
@@ -59,30 +58,30 @@ public class Dictionary {
     }
     // Метод для получения случайного слова из списка инглийских слов
     public Word getWord() {
-        ArrayList<String> randTranslations = new ArrayList<String>();
+        ArrayList<String> randomTranslations = new ArrayList<String>();
         Random random = new Random();
         int randomIndex;
         randomIndex = random.nextInt(listEnglishWords.size());
 
         // Возвращаем английское слово и 5 переводов к нему
         Word resultWord = listEnglishWords.get(randomIndex);
-        randTranslations.add(resultWord.getTranslation());
+        randomTranslations.add(resultWord.getTranslation());
         for (int i = 0; i < 4; i++) {
             randomIndex = random.nextInt(listEnglishWords.size());
             Word translation = listEnglishWords.get(randomIndex);
-            randTranslations.add(translation.getTranslation());
+            randomTranslations.add(translation.getTranslation());
         }
 
-        resultWord.setTranslations(randTranslations);
+        resultWord.setTranslations(randomTranslations);
 
         return resultWord;
     }
 
     // Проверка перевода слова
-    public boolean checkWord(String currentWord, String translate) {
+    public boolean checkWord(Word currentWord) {
         boolean result = false;
         for (Word word : listEnglishWords) {
-            if ((word.getWord().equals(currentWord)) & (word.getTranslation().equals(translate))) {
+            if ((word.getWord().equals(currentWord.getWord())) & (word.getTranslation().equals(currentWord.getTranslation()))) {
                 result = true;
             }
         }

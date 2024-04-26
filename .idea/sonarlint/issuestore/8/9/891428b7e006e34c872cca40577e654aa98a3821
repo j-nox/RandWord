@@ -1,17 +1,19 @@
 
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾•£ÿüÿÿÿÿ8ú–®Üñ1
 
 java:S1319"lThe type of "translations" should be an interface such as "List" rather than the implementation "ArrayList".(âÃÔ×øÿÿÿÿ8‹ğ´·ñ1
 
-java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(³åçµ8Œğ´·ñ1
+java:S1319 "pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(³åçµ8Œğ´·ñ1
 ‰
-java:S1319"lThe type of "translations" should be an interface such as "List" rather than the implementation "ArrayList".(²×ÓØ8òøµ·ñ1
+java:S1319$"lThe type of "translations" should be an interface such as "List" rather than the implementation "ArrayList".(²×ÓØ8òøµ·ñ1
 0
 java:S1700	"Rename field "word"(¬Ë¨8Œğ´·ñ1
 Ÿ
 java:S1598"}This file "Word.java" should be located in "words" directory, not in "/Users/web/IdeaProjects/RandWord/src/main/java/Models".(½‡ƒÙşÿÿÿÿ8Œğ´·ñ1
 O
-java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8‘ğ´·ñ1
+java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8©‚¯Üñ1
 ]
-java:S1128"@Remove this unused import 'org.apache.logging.log4j.LogManager'.(Ë”Ëé8‘ğ´·ñ1
+java:S1128"@Remove this unused import 'org.apache.logging.log4j.LogManager'.(Ë”Ëé8©‚¯Üñ1
 ^
-java:S1128"<Remove this unused import 'org.apache.logging.log4j.Logger'.(»¯øÿÿÿÿ8‘ğ´·ñ1
+java:S1128"<Remove this unused import 'org.apache.logging.log4j.Logger'.(»¯øÿÿÿÿ8©‚¯Üñ1

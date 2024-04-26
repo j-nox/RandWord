@@ -18,7 +18,7 @@ public class DictionaryTest {
 
     @Test
     void testCheckWord() {
-        assertTrue(dictionary.checkWord("access", "доступ"));
+        assertTrue(dictionary.checkWord(new Word("access", "доступ")));
     }
 
 }
