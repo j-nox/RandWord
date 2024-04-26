@@ -16,7 +16,6 @@ public class Session extends HttpServlet {
     private static final Logger LOG = LogManager.getLogger(words.Dictionary.class);
     private HttpSession session;
     private User user;
-    private Dictionary dictionary = words.Dictionary.getInstance();
     private LearnedWords learnedWords;
     public Session (HttpServletRequest request)
             throws ServletException, IOException {
@@ -39,7 +38,6 @@ public class Session extends HttpServlet {
     }
 
     public HttpSession getCurrentSession() { return session; }
-    public Dictionary getCurrentDictionary() { return dictionary; }
     public User getCurrentUser() { return user; }
     public LearnedWords getLearnedWords() { return learnedWords; }
     public void updateDataSession(String name, Object value) {

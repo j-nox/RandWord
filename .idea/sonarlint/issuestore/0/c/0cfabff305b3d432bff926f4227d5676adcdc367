@@ -6,15 +6,15 @@ java:S1598"yThis file "Session.java" should be located in "words" directory, n
 L
 java:S3416"*Update this logger to use "Session.class".(ŸÂ…Ìùÿÿÿÿ8Ú…¡ƒğ1
 ˜
-java:S1130"|Remove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from constructor's body.(ıù±8ä…¡ƒğ1
+java:S1130"|Remove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from constructor's body.(ıù±8ä…¡ƒğ1
 
-java:S1130"qRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from constructor's body.(ıù±8å…¡ƒğ1
+java:S1130"qRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from constructor's body.(ıù±8å…¡ƒğ1
 D
-java:S1125"'Remove the unnecessary boolean literal.(é¨«ˆ8æ…¡ƒğ1
+java:S1125"'Remove the unnecessary boolean literal.(é¨«ˆ8æ…¡ƒğ1
 \
-java:S2441":Make "User" serializable or don't store it in the session.(£™Õàûÿÿÿÿ8é…¡ƒğ1
+java:S2441":Make "User" serializable or don't store it in the session.(£™Õàûÿÿÿÿ8é…¡ƒğ1
 d
-java:S2441"BMake "LearnedWords" serializable or don't store it in the session.(šäâ¬şÿÿÿÿ8ê…¡ƒğ1
+java:S2441"BMake "LearnedWords" serializable or don't store it in the session.(šäâ¬şÿÿÿÿ8ê…¡ƒğ1
 `
 java:S1128"CRemove this unused import 'javax.servlet.http.HttpServletResponse'.(Á¨ïë8ó…¡ƒğ1
 M
@@ -26,7 +26,5 @@ z
 java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ïØ•Áıÿÿÿÿ8ô…¡ƒğ1
 z
 java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(’Ø¾ıÿÿÿÿ8ô…¡ƒğ1
-u
-java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(±»Ä¦8ô…¡ƒğ1
 z
-java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ã–ğÒûÿÿÿÿ8ô…¡ƒğ1
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ã–ğÒûÿÿÿÿ8ô…¡ƒğ1

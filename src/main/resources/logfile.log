@@ -162,3 +162,7 @@ INFO  | 2024-04-26 21:14:39 | [http-nio-8080-exec-1] words.User (User.java:16) -
 INFO  | 2024-04-26 21:14:39 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
 INFO  | 2024-04-26 21:17:12 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
 INFO  | 2024-04-26 21:17:12 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-26 21:24:53 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-26 21:24:53 | [http-nio-8080-exec-1] words.Session (Session.java:33) - New session has been created
+INFO  | 2024-04-26 21:25:27 | [http-nio-8080-exec-1] words.User (User.java:16) - New user has been created
+INFO  | 2024-04-26 21:25:27 | [http-nio-8080-exec-1] words.Session (Session.java:32) - New session has been created
